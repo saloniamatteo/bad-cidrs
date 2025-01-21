@@ -37,6 +37,6 @@ while IFS= read -r line; do
 	if [[ "$1" == "-d" || "$1" == "--dry-run" ]]; then
 		echo "CIDR: $cidr; Comment: $comment";
 	else
-		$root ufw prepend deny from $cidr comment $comment
+		$root ufw prepend deny from "$cidr" comment "$comment"
 	fi
 done < "$CIDRS_FILE"
