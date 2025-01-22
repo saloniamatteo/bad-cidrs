@@ -6,12 +6,21 @@
 # ------------------------------------------------
 # Written by Matteo Salonia (matteo@salonia.it)
 
-if [[ "$@" == "-h" || "$@" == "--help" ]]; then
-	echo "Usage: $0 [-h, --help] [-d, --dry-run]"
+# Print usage and exit
+if [[ $@ =~ "-h" || $@ =~ "--help" ]]; then
+	printf "Usage: $0 [-h, --help] [-d, --dry-run] [-s, --silent]
+-h,--help     Display this help message
+-d,--dry-run  Do not run ufw; only show which CIDRs would be banned
+-s,--silent   Do not print 'Skipping (already inserted)' messages
+"
 	exit 0
 fi
 
-CIDRS_FILE="CIDRs.txt"
+# Get this directory's path
+DIRNAME=$(dirname "$0")
+
+# Where our CIDRs file is stored
+CIDRS_FILE="$DIRNAME/CIDRs.txt"
 
 # Check if file exists
 if ! [ -e "$CIDRS_FILE" ]; then
@@ -40,10 +49,13 @@ while IFS= read -r line; do
 
 	# If CIDR is found, skip re-adding the rule
 	if [ $exit_status -eq 0 ]; then
-		echo "Skipping $CIDR as it is already present"
+		# Should we echo it?
+		if ! [[ $@ =~ "-s" || $@ =~ "--silent" ]]; then
+			echo "Skipping $cidr (already inserted)"
+		fi
 	else
 		# Dry run: only show what would be added
-		if [[ "$1" == "-d" || "$1" == "--dry-run" ]]; then
+		if [[ $@ =~ "-d" || $@ =~ "--dry-run" ]]; then
 			echo "CIDR: $cidr; Comment: $comment";
 		else
 			$root ufw prepend deny from "$cidr" comment "$comment"
