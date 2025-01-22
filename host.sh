@@ -12,4 +12,6 @@ if [ $# -ne 1 ]; then
 fi
 
 # This is where the magic happens
-whois $1 | grep "inetnum\|netname" | sed 's/:[ ]\+/: /g'
+whois $1 \
+| grep -i "cidr\|inetnum\|netname\|netrange" \
+| sed 's/:[ ]\+/: /g'
