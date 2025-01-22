@@ -6,7 +6,7 @@
 # ------------------------------------------------
 # Written by Matteo Salonia (matteo@salonia.it)
 
-if [[ "$1" == "-h" || "$1" == "--help" ]]; then
+if [[ "$@" == "-h" || "$@" == "--help" ]]; then
 	echo "Usage: $0 [-h, --help] [-d, --dry-run]"
 	exit 0
 fi
@@ -34,9 +34,19 @@ while IFS= read -r line; do
 	cidr=$(echo $line | awk '{print $1}')
 	comment=$(echo $line | awk '{print $2}')
 
-	if [[ "$1" == "-d" || "$1" == "--dry-run" ]]; then
-		echo "CIDR: $cidr; Comment: $comment";
+	# Check if CIDR is already added
+	$root ufw status verbose | grep "$cidr" >/dev/null 2>&1
+	exit_status=$?
+
+	# If CIDR is found, skip re-adding the rule
+	if [ $exit_status -eq 0 ]; then
+		echo "Skipping $CIDR as it is already present"
 	else
-		$root ufw prepend deny from "$cidr" comment "$comment"
+		# Dry run: only show what would be added
+		if [[ "$1" == "-d" || "$1" == "--dry-run" ]]; then
+			echo "CIDR: $cidr; Comment: $comment";
+		else
+			$root ufw prepend deny from "$cidr" comment "$comment"
+		fi
 	fi
 done < "$CIDRS_FILE"
