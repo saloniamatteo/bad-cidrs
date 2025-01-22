@@ -54,10 +54,10 @@ while IFS= read -r line; do
 			echo "Skipping $cidr (already inserted)"
 		fi
 	else
+		echo "CIDR: $cidr ($comment)";
+
 		# Dry run: only show what would be added
-		if [[ $@ =~ "-d" || $@ =~ "--dry-run" ]]; then
-			echo "CIDR: $cidr; Comment: $comment";
-		else
+		if ! [[ $@ =~ "-d" || $@ =~ "--dry-run" ]]; then
 			$root ufw prepend deny from "$cidr" comment "$comment"
 		fi
 	fi
