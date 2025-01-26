@@ -44,6 +44,7 @@
 109.236.61.0/24		Botshield-V4
 109.238.152.0/21	INET
 109.68.184.0/22		TEL-NET
+110.136.0.0/19		TLKM
 110.184.0.0/13		Chinanet
 110.77.128.0/19		CatBB-NET
 111.112.0.0/15		Chinanet
@@ -122,6 +123,7 @@
 125.80.0.0/13		Chinanet
 128.199.0.0/16		DigitalOcean
 129.144.0.0/12		OPC1
+13.104.0.0/14		Microsoft
 13.200.0.0/13		AWS
 13.208.0.0/12		AWS
 13.224.0.0/12		AWS
@@ -130,6 +132,8 @@
 13.32.0.0/12 		AWS
 13.48.0.0/13 		AWS
 13.56.0.0/14 		AWS
+13.64.0.0/11		Microsoft
+13.96.0.0/13		Microsoft
 130.250.133.0/24	Tatacomm
 130.250.134.0/24	Tatacomm
 132.145.0.0/16		OC195
@@ -139,6 +143,7 @@
 137.74.0.0/16		OVH
 138.124.118.0/24	AezaNet
 138.124.14.0/24		AezaNet
+138.197.0.0/16		DigitalOcean
 139.19.0.0/16		MPIINet
 139.59.0.0/16		DigitalOcean
 139.59.56.0/18		DigitalOcean
@@ -162,6 +167,8 @@
 146.19.24.0/24		PL-MEV
 146.190.0.0/16		DigitalOcean
 146.70.65.0/24		GlobalAXS
+147.185.132.0/22	PAN22
+147.185.136.0/22	PAN22
 147.189.131.0/24	Smarthost
 147.45.112.0/24		VDSCloud
 148.135.0.0/17		BGXO
@@ -189,8 +196,10 @@
 157.245.0.0/16		DigitalOcean
 159.223.0.0/16		DigitalOcean
 159.65.0.0/16		DigitalOcean
+159.89.0.0/16		DigitalOcean
 160.30.136.0/23		DataZ-VN
 161.132.0.0/16		Red-Cientifica-Peruana
+161.35.0.0/16		DigitalOcean
 161.97.160.0/20		Contabo
 162.120.128.0/17	GoogleVPN
 162.243.0.0/16		DigitalOcean
@@ -202,6 +211,7 @@
 165.154.182.0/24	Ucloud
 165.154.192.0/20	Scloudpte-ltd
 165.22.0.0/16		DigitalOcean
+165.227.0.0/16		DigitalOcean
 165.231.0.0/16		Fibersa
 165.232.128.0/18	DigitalOcean
 165.232.32.0/19		DigitalOcean
@@ -221,6 +231,8 @@
 172.103.128.0/17	Cipherkey
 172.104.0.0/15		Linode
 172.128.0.0/10		Microsoft
+172.192.0.0/12		Microsoft
+172.208.0.0/13		Microsoft
 172.232.0.0/13		Linode
 172.86.64.0/18		Ponynet
 173.236.128.0/17	DreamHost
@@ -235,6 +247,7 @@
 176.123.8.0/22		AlexHost
 176.198.0.0/16		UnityMedia
 176.98.0.0/19		CrystalNet
+177.10.144.0/21		Unknown
 178.128.160.0/20	DigitalOcean
 178.128.48.0/20		DigitalOcean
 178.128.96.0/20		DigitalOcean
@@ -243,6 +256,7 @@
 178.20.31.0/24		Fine-Group-Servers
 178.249.209.0/24	CDNEXT-PRG
 178.250.246.0/23	Majordomo net
+178.62.0.0/17		DigitalOcean
 178.62.128.0/17		DigitalOcean
 179.43.128.0/18		PrivateLayer
 18.128.0.0/9		AWS
@@ -254,6 +268,7 @@
 180.160.0.0/12		Chinanet
 180.224.0.0/13		Xpeed
 180.76.0.0/16		Baidu
+181.48.0.0/13		Unknown
 182.144.0.0/13		Chinanet
 182.176.0.0/12		PTCLBB-PK
 182.208.0.0/12		Xpeed
@@ -422,6 +437,7 @@
 39.108.0.0/16		Alisoft
 39.109.122.0/23		YISUCLOUDLTD-HK
 39.96.0.0/13		Alisoft
+4.144.0.0/12		Microsoft
 4.208.0.0/12		Microsoft
 40.162.0.0/16		Bluecloud
 41.193.56.0/21		Vox-Telecom
@@ -437,6 +453,7 @@
 43.248.184.0/22		PGYIDC
 44.192.0.0/10		AWS
 45.118.160.0/22		YOTTA
+45.139.104.0/24		Net493
 45.139.252.0/24		CyberZ
 45.142.193.0/24		Limited-Network
 45.144.227.0/24		CyberZ
@@ -458,6 +475,7 @@
 46.101.0.0/18		DigitalOcean
 46.101.128.0/17		Digitalocean
 46.19.138.0/24		Client1060
+46.19.143.0/24		Client1096
 46.199.0.0/16		CytaNet
 46.59.28.0/24		GPNet
 47.100.0.0/14		Alisoft
@@ -526,10 +544,12 @@
 64.94.84.0/23		BNL
 65.108.0.0/15		Hetzner
 65.20.128.0/17		EarthLink
+65.49.0.0/17		HurricaneElectric
 66.240.192.0/18		Carinet
 67.205.0.0/18		DreamHost
 68.183.0.0/16		DigitalOcean
 72.255.48.0/18		Cybernet
+77.226.208.0/24		EXCMOAYUNTAMIENTODELEBRIJA
 77.240.234.0/24		TeaNet
 77.7.0.0/17			TEDE-LLU
 77.90.11.0/24		IPNet
@@ -546,6 +566,7 @@
 8.208.0.0/12		ASEPL
 80.183.0.0/17		TelecomADSL
 80.251.208.0/20		Unspecified
+80.64.30.0/24		HorizonMSK
 80.66.76.0/24		XhostisNET
 80.82.65.0/24		NET1-65
 80.82.70.0/24		NET1-70
