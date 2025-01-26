@@ -11,7 +11,6 @@
 101.47.167.0/24		Byteplus
 101.47.67.0/24		Byteplus
 101.55.64.0/20		Korea-Data
-101.55.80.0/23		KDTIDC
 101.55.80.0/23		Korea-Data
 101.80.0.0/11		Chinanet
 102.211.152.0/23	Afrinic
@@ -146,7 +145,6 @@
 138.197.0.0/16		DigitalOcean
 139.19.0.0/16		MPIINet
 139.59.0.0/16		DigitalOcean
-139.59.56.0/18		DigitalOcean
 14.103.0.0/16		Volcano-Engine
 14.139.243.0/24		Amity-Jaipur
 14.16.0.0/12		Chinanet
@@ -260,10 +258,7 @@
 178.62.128.0/17		DigitalOcean
 179.43.128.0/18		PrivateLayer
 18.128.0.0/9		AWS
-18.128.0.0/9 		AWS
-18.32.0.0/11		AWS
 18.32.0.0/11 		AWS
-18.64.0.0/10		AWS
 18.64.0.0/10 		AWS
 180.160.0.0/12		Chinanet
 180.224.0.0/13		Xpeed
@@ -325,7 +320,6 @@
 193.3.173.0/24		Code200
 193.32.162.0/24		DMZHost
 193.34.212.0/22		PL-MEV
-193.41.206.0/24		AGRNet
 193.41.206.0/24		Alexandrion
 193.56.113.0/24		CyberZ
 194.0.234.0/24		LordVPS
@@ -410,7 +404,6 @@
 27.148.0.0/14		Chinanet
 27.16.0.0/12		Chinanet
 3.0.0.0/9			AWS
-3.128.0.0/9			AWS
 3.128.0.0/9 		AWS
 31.120.0.0/16		BTNET
 31.202.128.0/18		Kharkov-MaxNet
@@ -460,7 +453,6 @@
 45.148.10.0/24		DMZHost
 45.148.145.0/24		Lay
 45.156.128.0/24		INAP-AMS
-45.156.128.0/24		INAP-AMS-1
 45.156.129.0/24		INAP-CHI-1
 45.156.131.0/24		ICG2
 45.164.176.0/22		ISP-Facil
@@ -624,7 +616,6 @@
 94.114.0.0/17		UnityMedia
 94.136.188.0/21		TT
 94.154.32.0/21		WebNetwork
-94.154.32.0/21		Webnetwork
 94.156.177.0/24		Virtualine-Technologies
 94.159.104.0/21		H2Nexus
 95.214.52.0/22		PL-MEV
