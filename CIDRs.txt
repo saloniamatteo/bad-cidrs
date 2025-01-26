@@ -28,6 +28,7 @@
 103.81.84.0/22		HostingViet
 103.82.240.0/22		EXBCOID
 104.167.220.0/22	Dedioutlet
+104.248.0.0/16		DigitalOcean
 105.96.0.0/12		AlgerieTelecom
 106.104.0.0/14		NCICNet
 106.112.0.0/13		Chinanet
@@ -94,6 +95,7 @@
 120.55.0.0/16		Alisoft
 120.76.0.0/14		Alisoft
 120.80.0.0/13		Unicom
+121.202.128.0/17	Smartone
 121.204.0.0/14		Chinanet
 121.224.0.0/12		Chinanet
 121.40.0.0/14		Alisoft
@@ -138,6 +140,7 @@
 138.124.118.0/24	AezaNet
 138.124.14.0/24		AezaNet
 139.19.0.0/16		MPIINet
+139.59.0.0/16		DigitalOcean
 139.59.56.0/18		DigitalOcean
 14.103.0.0/16		Volcano-Engine
 14.139.243.0/24		Amity-Jaipur
@@ -358,9 +361,11 @@
 212.83.160.0/19		Scaleway
 212.86.41.0/24		DMZ41
 213.232.87.0/24		NordVPN
+213.55.85.0/24		Ethio-Telecom
 213.81.133.0/24		Splitblck133
 216.10.240.0/20		PdrsolutionsFZC
 216.131.114.0/24	Netpr-FRA
+216.131.64.0/18		STRTech
 217.182.186.0/24	OVH
 217.80.0.0/12		DTAG-DIAL14
 218.102.0.0/17		Netvigator
@@ -368,11 +373,13 @@
 218.15.0.0/15		Chinanet
 218.16.0.0/15		Chinanet
 218.18.0.0/16		Chinanet
+218.28.0.0/15		Unicom
 218.78.0.0/15		Chinanet
 218.80.0.0/14		Chinanet
 218.92.0.0/16		Chinanet
 220.178.0.0/15		Chinanet
 220.180.0.0/16		Chinanet
+220.189.232.0/22	Chinanet
 220.192.0.0/12		Unicom
 221.0.0.0/14		Unicom
 222.132.0.0/14		Unicom
