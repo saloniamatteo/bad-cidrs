@@ -239,6 +239,7 @@
 162.216.148.0/22	GCP
 162.243.0.0/16		DigitalOcean
 163.204.0.0/16		Unicom
+163.44.0.0/18		InfoSphere
 164.128.128.0/18	Swisscom
 164.52.0.0/24		UCUL
 164.90.128.0/17		DigitalOcean
@@ -252,6 +253,7 @@
 165.232.32.0/19		DigitalOcean
 165.232.64.0/18		DigitalOcean
 167.172.0.0/16		DigitalOcean
+167.71.0.0/16		DigitalOcean
 167.94.138.0/24		Censy
 167.94.145.0/24		Censys
 167.94.146.0/24		Censys
@@ -267,6 +269,7 @@
 170.239.176.0/22	Unknown
 170.64.128.0/17		DigitalOcean
 171.224.0.0/12		Viettel
+171.25.193.0/24		SE-TorNet
 171.7.84.0/15		TTBP
 172.103.128.0/17	Cipherkey
 172.104.0.0/15		Linode
@@ -327,6 +330,7 @@
 183.81.184.0/21		Camintel
 184.104.0.0/15		HurricaneElectric
 185.10.68.0/24		FlokiNet
+185.100.87.0/24		FlokiNet
 185.132.53.0/24		XOR
 185.142.236.0/24	BlackHost
 185.15.58.0/24		Wikimedia
@@ -367,6 +371,7 @@
 190.171.128.0/18	CTC-CORP
 192.155.80.0/20		Linode
 192.241.128.0/17	DigitalOcean
+192.42.116.0/24		Nothing-to-hide-TOR
 193.151.128.0/21	AsiaTech
 193.163.71.0/24		JMT-Paso
 193.176.85.0/24		M247RO
@@ -424,6 +429,7 @@
 203.57.254.0/23		Chinanet
 203.6.224.0/20		Chinanet
 204.10.192.0/22		AccurisHosting
+204.188.192.0/18	Sharktech
 205.210.31.0/24		PAN22
 206.168.32.0/22		Censys
 206.189.0.0/16		DigitalOcean
@@ -539,6 +545,7 @@
 45.139.104.0/24		Net493
 45.139.252.0/24		CyberZ
 45.142.193.0/24		Limited-Network
+45.144.212.0/24		Kprohost
 45.144.227.0/24		CyberZ
 45.148.10.0/24		DMZHost
 45.148.145.0/24		Lay
@@ -647,6 +654,7 @@
 71.6.128.0/17		Carinet
 72.176.0.0/12		RRSW
 72.255.48.0/18		Cybernet
+73.0.0.0/8			Comcast
 74.82.0.0/18		HurricaneElectric
 75.176.0.0/12		RRMA
 77.221.136.0/22		AezaNet
@@ -657,6 +665,7 @@
 77.90.11.0/24		IPNet
 77.90.22.0/24		myPrepaidServer
 78.110.48.0/20		RU-City-Telecom1
+78.153.140.0/24		HostGlobalPlus
 78.189.74.0/23		TurkTelecom
 78.189.76.0/22		TurkTelecom
 78.189.80.0/23		TurkTelecom
