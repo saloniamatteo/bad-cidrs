@@ -115,6 +115,7 @@
 122.144.0.0/16		ZZGiant
 122.154.0.0/15		CAT
 122.160.0.0/14		ABTS-DSL
+122.187.0.0/16		Bharti
 122.192.0.0/14		Unicom
 122.32.0.0/12		Xpeed
 123.128.0.0/13		Unicom
@@ -131,6 +132,7 @@
 125.72.52.0/22		Chinanet
 125.74.0.0/15		Chinanet
 125.80.0.0/13		Chinanet
+128.185.0.0/17		Bharti
 128.199.0.0/16		DigitalOcean
 129.144.0.0/12		OPC1
 13.104.0.0/14		Microsoft
@@ -286,12 +288,14 @@
 176.123.0.0/21		AlexHost
 176.123.8.0/22		AlexHost
 176.198.0.0/16		UnityMedia
+176.65.138.0/24		NET2
 176.98.0.0/19		CrystalNet
 177.10.144.0/21		Unknown
 178.128.0.0/16		DigitalOcean
 178.132.108.0/24	PacketHub
 178.135.2.0/24		VIPRIONJD3
 178.160.192.0/18	Armentel
+178.178.192.0/22	Megafon
 178.20.31.0/24		Fine-Group-Servers
 178.249.209.0/24	CDNEXT-PRG
 178.250.246.0/23	Majordomo net
@@ -358,6 +362,7 @@
 188.166.160.0/20	DigitalOcean
 188.166.224.0/20	DigitalOcean
 188.26.192.0/21		ES-Residential
+189.113.32.0/20		NetTurbo-BR
 190.13.224.0/20		CoopTortu
 190.171.128.0/18	CTC-CORP
 192.155.80.0/20		Linode
@@ -408,6 +413,7 @@
 20.64.0.0/10		Microsoft
 200.105.128.0/19	Acelerate
 202.28.0.0/15		Uninet
+202.53.94.0/24		Nettlinx
 202.69.32.0/20		GerrysNet
 202.90.128.0/19		DOST
 202.95.0.0/19		RCPL
@@ -452,6 +458,9 @@
 23.237.0.0/16		FDCServers
 23.94.0.0/15		HostPapa
 24.144.64.0/18		DigitalOcean
+24.160.0.0/13		CharterCommunications
+24.168.0.0/15		CharterCommunications
+24.170.0.0/17		CharterCommunications
 27.148.0.0/14		Chinanet
 27.16.0.0/12		Chinanet
 3.0.0.0/9			AWS
@@ -460,6 +469,19 @@
 31.202.128.0/18		Kharkov-MaxNet
 31.210.208.0/21		Kvant-Telecom
 34.128.0.0/10		GCP
+34.16.0.0/12		GCP
+34.32.0.0/11		GCP
+34.4.128.0/17		GCP
+34.4.16.0/20		GCP
+34.4.32.0/19		GCP
+34.4.5.0/24			GCP
+34.4.6.0/23			GCP
+34.4.64.0/18		GCP
+34.4.8.0/21			GCP
+34.5.0.0/16			GCP
+34.6.0.0/15			GCP
+34.64.0.0/10		GCP
+34.8.0.0/13			GCP
 35.152.0.0/13		AWS
 35.160.0.0/12		AWS
 35.176.0.0/13		AWS
@@ -560,6 +582,11 @@
 51.8.0.0/16			Microsoft
 51.81.0.0/16		NCC-Managed-Addr-Block
 52.0.0.0/10			AWS
+52.145.0.0/16		Microsoft
+52.146.0.0/15		Microsoft
+52.148.0.0/14		Microsoft
+52.152.0.0/13		Microsoft
+52.160.0.0/11		Microsoft
 52.64.0.0/12 		AWS
 54.144.0.0/12		AWS
 54.160.0.0/11		AWS
@@ -569,6 +596,7 @@
 54.220.0.0/15		AWS
 54.36.0.0/15		OVH
 54.38.0.0/16		OVH
+54.64.0.0/11		AWS
 57.129.20.0/24		SD-LIM3-sdagg24
 57.129.64.0/24		SD-OneNetwork
 57.150.0.0/15		Microsoft
@@ -670,6 +698,7 @@
 85.85.0.0/16		EuskalTel
 86.2.0.0/20			VMCBBUK
 86.60.208.0/20		SSP-NGN
+87.103.0.0/17		Vodafone-PT
 87.106.228.0/23		NGCS
 87.120.112.0/24		Ekabi
 87.120.115.0/24		Ekabi
