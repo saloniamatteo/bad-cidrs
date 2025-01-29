@@ -17,6 +17,7 @@
 102.211.152.0/23	Afrinic
 102.216.219.0/24	Rimate-Enterprises
 103.130.198.0/23	Abhinawa
+103.133.214.0/23	eWebGuru
 103.146.158.0/24	HK-KXSY
 103.149.27.0/24		Ucloud-HK
 103.168.82.0/23		Sandhya
@@ -89,6 +90,8 @@
 116.96.0.0/12		Viettel
 117.122.208.0/21	Primetelecom
 117.128.0.0/10		CMNet
+117.198.136.0/21	BSNL
+117.209.0.0/17		BSNL
 117.221.0.0			BB-Multiplay
 117.50.0.0/16		Ucloud
 117.80.0.0/12		Chinanet
@@ -182,6 +185,7 @@
 140.249.0.0/16		Chinanet
 141.148.0.0/16		Oracle
 141.227.130.0/24	PCI-LZ-AMS
+141.255.160.0/21	PrivateLayer
 141.94.145.0/24		OVH
 141.94.204.0/22		VPS-GRA8
 141.98.11.0/24		HostBaltic
@@ -263,9 +267,7 @@
 168.187.0.0/16		KEMS-KW
 168.253.90.0/24		CMV-TER1
 169.228.0.0/16		UCSDNet
-170.106.0.0/17		ACEVILLEPTELTD-SG
-170.106.128.0/19	ACEVILLEPTELTD-SG
-170.106.160.0/21	ACEVILLEPTELTD-SG
+170.106.0.0/16		ACEVILLEPTELTD-SG
 170.187.128.0/17	Linode
 170.210.0.0/16		ARIU
 170.239.176.0/22	Unknown
@@ -333,7 +335,9 @@
 184.104.0.0/15		HurricaneElectric
 185.10.68.0/24		FlokiNet
 185.100.87.0/24		FlokiNet
+185.12.59.0/22		Blix
 185.132.53.0/24		XOR
+185.138.166.0/24	Kriek
 185.142.236.0/24	BlackHost
 185.147.124.0/24	RU-Almira
 185.147.56.0/22		LMT-LV
@@ -363,6 +367,7 @@
 185.6.52.0/22		VTelecom
 185.82.218.0/23		ITLDC2-SOF1
 185.91.127.0/24		Tube VPS
+186.233.176.0/21	Raimax
 186.247.0.0/16		Vtal
 186.6.0.0/16		ClaroNet
 186.96.208.0/20		Amplia
@@ -403,6 +408,8 @@
 195.178.110.0/24	TechoffSrv
 195.191.218.0/23	VeloxServ
 195.3.144.0/22		RN-Data
+195.3.220.0/22		PL-MEV
+195.82.146.0/23		EE-VLTDWeller
 195.88.120.0/23		Parus-Telecom
 195.91.4.0/24		GPRS-PAT
 197.144.0.0/14		WanaCorp
@@ -470,9 +477,8 @@
 23.237.0.0/16		FDCServers
 23.94.0.0/15		HostPapa
 24.144.64.0/18		DigitalOcean
-24.160.0.0/13		CharterCommunications
-24.168.0.0/15		CharterCommunications
-24.170.0.0/17		CharterCommunications
+24.160.0.0/12		CharterCommunications
+24.176.0.0/13		CharterCommunications
 27.148.0.0/14		Chinanet
 27.16.0.0/12		Chinanet
 3.0.0.0/9			AWS
@@ -512,6 +518,7 @@
 36.40.0.0/13		Chinanet
 36.64.0.0/11		Telkomnet
 36.96.0.0/11		Chinanet
+37.10.113.0/23		HydraCom
 37.110.64.0/18		NCN-BBCust
 37.192.112.0/21		NTK
 37.27.208.0/23		Hetzner
@@ -542,8 +549,9 @@
 42.60.0.0/15		SingNet
 42.63.0.0/16		Unicom
 42.98.0.0/17		Netnavigator
-43.128.128.0/19		ACEVILLEPTELTD-SG
-43.133.0.0/19		ACEVILLEPTELTD-SG
+43.128.0.0/13		ACEVILLEPTELTD-SG
+43.133.0.0/16		ACEVILLEPTELTD-SG
+43.152.0.0/13		ACEVILLEPTELTD-SG
 43.159.128.0/18		ACE
 43.200.0.0/13		AWS
 43.248.184.0/22		PGYIDC
@@ -572,6 +580,8 @@
 45.66.244.0/22		Bamboozle2
 45.79.0.0/16		Linode
 45.83.64.0/22		Internet-Research
+45.94.31.0/24		LEET
+45.94.31.0/24		Tencent
 46.101.0.0/18		DigitalOcean
 46.101.128.0/17		Digitalocean
 46.176.0.0			HOL-Broadband
@@ -626,12 +636,15 @@
 59.0.0.0/11			Korea-Telecom
 59.124.0.0/14		HiNet
 59.126.0.0/16		HiNet
+59.176.0.0/13		MNTL
+59.184.0.0/15		MNTL
 59.32.0.0/13		Chinanet
 59.40.0.0/15		Chinanet
 59.42.0.0/16		Chinanet
 60.191.110.0/24		Suige
 60.204.0.0/16		HWCSNet
 60.218.0.0/15		Unicom
+60.96.0.0/11		SoftBankBB
 61.168.0.0/16		Unicom
 61.169.0.0/16		Chinanet
 61.170.0.0/15		Chinanet
@@ -666,12 +679,14 @@
 73.0.0.0/8			Comcast
 74.82.0.0/18		HurricaneElectric
 75.176.0.0/12		RRMA
+75.75.192.0/19		ACDNet
 77.106.72.0/21		ERTH-Barnaul
 77.221.136.0/22		AezaNet
 77.226.208.0/24		EXCMOAYUNTAMIENTODELEBRIJA
 77.240.234.0/24		TeaNet
 77.7.0.0/17			TEDE-LLU
 77.75.78.0/24		Seznam
+77.85.205.0/12		Bulgarian-Telco
 77.90.11.0/24		IPNet
 77.90.22.0/24		myPrepaidServer
 78.110.48.0/20		RU-City-Telecom1
@@ -736,6 +751,7 @@
 89.248.172.0/24		NET2
 89.34.219.0/24		PlayGO
 90.112.152.0/19		IP2000
+90.84.168.0/21		Orange
 91.107.240.0/19		Cloud-NBG1
 91.160.0.0/12		Scaleway
 91.238.181.0/24		OnehostNet
