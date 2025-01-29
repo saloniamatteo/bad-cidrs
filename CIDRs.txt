@@ -294,6 +294,7 @@
 176.65.138.0/24		NET2
 176.98.0.0/19		CrystalNet
 177.10.144.0/21		Unknown
+177.96.0.0/14		Telefonica-Brazil
 178.128.0.0/16		DigitalOcean
 178.132.108.0/24	PacketHub
 178.135.2.0/24		VIPRIONJD3
@@ -304,6 +305,7 @@
 178.250.246.0/23	Majordomo net
 178.62.0.0/17		DigitalOcean
 178.62.128.0/17		DigitalOcean
+179.42.124.0/22		CHTCH
 179.43.128.0/18		PrivateLayer
 18.128.0.0/9		AWS
 18.32.0.0/11 		AWS
@@ -519,6 +521,7 @@
 39.104.0.0/14		Alisoft
 39.108.0.0/16		Alisoft
 39.109.122.0/23		YISUCLOUDLTD-HK
+39.112.0.0/17		broadNNet
 39.96.0.0/13		Alisoft
 4.144.0.0/12		Microsoft
 4.208.0.0/12		Microsoft
@@ -663,6 +666,7 @@
 73.0.0.0/8			Comcast
 74.82.0.0/18		HurricaneElectric
 75.176.0.0/12		RRMA
+77.106.72.0/21		ERTH-Barnaul
 77.221.136.0/22		AezaNet
 77.226.208.0/24		EXCMOAYUNTAMIENTODELEBRIJA
 77.240.234.0/24		TeaNet
@@ -750,6 +754,7 @@
 94.154.32.0/21		WebNetwork
 94.156.177.0/24		Virtualine-Technologies
 94.159.104.0/21		H2Nexus
+94.201.32.0/19		Emirates-Integrated-Telecom
 95.142.46.0/24		VDSINANet
 95.181.238.0/24		M247
 95.214.52.0/22		PL-MEV
