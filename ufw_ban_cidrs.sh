@@ -44,7 +44,7 @@ while IFS= read -r line; do
 	comment=$(echo $line | awk '{print $2}')
 
 	# Check if CIDR is already added
-	$root ufw status verbose | grep "$cidr" >/dev/null 2>&1
+	$root ufw status | grep "$cidr" >/dev/null 2>&1
 	exit_status=$?
 
 	# If CIDR is found, skip re-adding the rule
