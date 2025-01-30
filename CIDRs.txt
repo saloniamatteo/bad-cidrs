@@ -1,6 +1,6 @@
 1.160.0.0/12		Hinet
 1.192.0.0/13		Chinanet
-1.234.0.0/14		SK-Broadband
+1.232.0.0/14		SK-Broadband
 1.6.53.0/24			Sify
 101.126.144.0/21	Volcano-Engine
 101.160.0.0/11		Telstra
@@ -14,7 +14,7 @@
 101.47.67.0/24		Byteplus
 101.55.64.0/20		Korea-Data
 101.55.80.0/23		Korea-Data
-101.80.0.0/11		Chinanet
+101.64.0.0/11		Chinanet
 102.211.152.0/23	Afrinic
 102.216.219.0/24	Rimate-Enterprises
 103.130.198.0/23	Abhinawa
@@ -344,7 +344,7 @@
 184.104.0.0/15		HurricaneElectric
 185.10.68.0/24		FlokiNet
 185.100.87.0/24		FlokiNet
-185.12.59.0/22		Blix
+185.12.56.0/22		Blix
 185.132.53.0/24		XOR
 185.138.166.0/24	Kriek
 185.142.236.0/24	BlackHost
@@ -528,7 +528,7 @@
 36.40.0.0/13		Chinanet
 36.64.0.0/11		Telkomnet
 36.96.0.0/11		Chinanet
-37.10.113.0/23		HydraCom
+37.10.112.0/23		HydraCom
 37.110.64.0/18		NCN-BBCust
 37.192.112.0/21		NTK
 37.27.208.0/23		Hetzner
@@ -647,7 +647,7 @@
 58.18.0.0/16		Unicom
 58.208.0.0/12		Chinanet
 58.224.0.0/12		broadNnet
-58.245.27.0/15		Unicom
+58.244.0.0/15		Unicom
 59.0.0.0/11			Korea-Telecom
 59.124.0.0/14		HiNet
 59.126.0.0/16		HiNet
@@ -665,7 +665,7 @@
 61.170.0.0/15		Chinanet
 61.240.0.0/14		Unicom
 61.32.0.0/13		Boranet
-61.82.0.0/14		Korea-Telecom
+61.80.0.0/14		Korea-Telecom
 62.141.32.0/20		myLoc
 64.124.0.0/17		AboveNet
 64.124.128.0/19		AboveNet
@@ -691,7 +691,7 @@
 71.6.128.0/17		Carinet
 71.80.0.0/12		CharterCommunications
 72.176.0.0/12		RRSW
-72.255.48.0/18		Cybernet
+72.255.0.0/18		Cybernet
 73.0.0.0/8			Comcast
 74.82.0.0/18		HurricaneElectric
 75.176.0.0/12		RRMA
@@ -702,7 +702,7 @@
 77.240.234.0/24		TeaNet
 77.7.0.0/17			TEDE-LLU
 77.75.78.0/24		Seznam
-77.85.205.0/12		Bulgarian-Telco
+77.80.0.0/12		Bulgarian-Telco
 77.90.11.0/24		IPNet
 77.90.22.0/24		myPrepaidServer
 78.110.48.0/20		RU-City-Telecom1
@@ -728,7 +728,7 @@
 80.82.77.0/24		IP-Volume
 80.94.95.0/24		Unmanaged-LTD
 81.161.238.0/24		Nybula-LLC
-81.17.16.0/19		PrivateLayer
+81.17.0.0/19		PrivateLayer
 82.165.208.0/21		IONOS
 82.165.96.0/21		RHR-BAP-NGCS
 82.64.0.0/14		PROXAD
@@ -767,9 +767,9 @@
 89.248.163.0/24		NET3-163
 89.248.172.0/24		NET2
 89.34.219.0/24		PlayGO
-90.112.152.0/19		IP2000
+90.112.128.0/19		IP2000
 90.84.168.0/21		Orange
-91.107.240.0/19		Cloud-NBG1
+91.107.224.0/19		Cloud-NBG1
 91.160.0.0/12		Scaleway
 91.238.181.0/24		OnehostNet
 92.118.39.0/24		DMZHost
@@ -783,7 +783,7 @@
 93.99.115.0/24		BlucinaNet
 94.102.55.0/24		NET4
 94.114.0.0/17		UnityMedia
-94.136.188.0/21		TT
+94.136.184.0/21		TT
 94.154.32.0/21		WebNetwork
 94.156.177.0/24		Virtualine-Technologies
 94.159.104.0/21		H2Nexus
