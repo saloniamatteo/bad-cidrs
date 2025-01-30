@@ -3,9 +3,11 @@ Curated list of known bad CIDRs (scanners, crawlers, etc.)
 
 Useful files:
 - `CIDRs.txt`: file containing the bad CIDRs.
-- `ufw_ban_cidrs.sh`: shell script that reads the data provided in CIDRs.txt, and bans it using UFW
+- `endlessh.sh`: create endlessh report, including WHOIS info (using `host.sh`)
 - `get_ufw_banned.sh`: shell script to aid in creating the CIDRs.txt list; prints all of the banned hosts in UFW (`DENY IN`)
 - `host.sh`: shell script to aid in creating the CIDRs.txt list; prints WHOIS info
+- `host_rec.sh`: run this on a file contaning a column of IP addresses & run `host.sh` for each IP
+- `ufw_ban_cidrs.sh`: shell script that reads the data provided in CIDRs.txt, and bans it using UFW
 
 ## Donate
 Support this project: [salonia.it/donate](https://salonia.it/donate)
