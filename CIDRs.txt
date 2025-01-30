@@ -8,6 +8,7 @@
 101.224.0.0/13		Chinanet
 101.36.121.0/24		Ucloud
 101.36.127.0/24		Ucloud
+101.37.0.0/16		Alisoft
 101.47.162.0/24		Byteplus
 101.47.167.0/24		Byteplus
 101.47.67.0/24		Byteplus
@@ -42,6 +43,7 @@
 106.14.0.0/15		Alibaba
 106.240.0.0/12		Boranet
 106.36.0.0/14		Chinanet
+106.56.0.0/13		Chinanet
 106.75.0.0/16		Ucloud
 107.170.0.0/16		DigitalOcean
 107.172.0.0/14		HostPapa
@@ -71,6 +73,7 @@
 112.81.84.0/22		Yushanme-Suzhou
 113.120.0.0/13		Chinanet
 113.44.0.0/14		HWCS-Net
+113.64.0.0/11		Chinanet
 114.144.0.0/12		OCN
 114.155.0.0/17		OCN
 114.160.0.0/11		OCN
@@ -79,6 +82,7 @@
 114.72.0.0/14		OptusInternet
 114.80.0.0/12		Chinanet
 115.136.0.0/13		Xpeed
+115.168.0.0/14		Chinanet
 115.190.0.0/15		Volcano-Engine
 115.240.0.0/13		Jio
 115.48.0.0/12		Unicom
@@ -102,6 +106,7 @@
 118.194.249.0/24	Ucloud
 118.68.144.0/20		FPTDynamicIP
 119.176.0.0/12		Unicom
+119.48.0.0/13		Unicom
 119.64.0.0/13		Xpeed
 120.144.0.0/12		Telstra
 120.192.0.0/10		Cmnet
@@ -233,6 +238,7 @@
 157.230.0.0/16		DigitalOcean
 157.245.0.0/16		DigitalOcean
 158.51.96.0/22		V4BLK3
+159.203.0.0/16		DigitalOcean
 159.223.0.0/16		DigitalOcean
 159.65.0.0/16		DigitalOcean
 159.89.0.0/16		DigitalOcean
@@ -247,6 +253,9 @@
 163.204.0.0/16		Unicom
 163.44.0.0/18		InfoSphere
 164.128.128.0/18	Swisscom
+164.152.16.0/20		Oracle
+164.152.32.0/19		Oracle
+164.152.8.0/21		Oracle
 164.52.0.0/24		UCUL
 164.90.128.0/17		DigitalOcean
 164.92.128.0/17		DigitalOcean
@@ -429,6 +438,7 @@
 20.48.0.0/12		Microsoft
 20.64.0.0/10		Microsoft
 200.105.128.0/19	Acelerate
+200.110.128.0/20	THSOLUCIONES
 202.28.0.0/15		Uninet
 202.53.94.0/24		Nettlinx
 202.69.32.0/20		GerrysNet
@@ -532,6 +542,7 @@
 39.96.0.0/13		Alisoft
 4.144.0.0/12		Microsoft
 4.208.0.0/12		Microsoft
+4.240.0.0/12		Microsoft
 40.112.0.0/13		Microsoft
 40.120.0.0/14		Microsoft
 40.124.0.0/16		Microsoft
@@ -548,6 +559,7 @@
 42.51.0.0/17		HTUNet
 42.60.0.0/15		SingNet
 42.63.0.0/16		Unicom
+42.88.0.0/13		Chinanet
 42.98.0.0/17		Netnavigator
 43.128.0.0/13		ACEVILLEPTELTD-SG
 43.133.0.0/16		ACEVILLEPTELTD-SG
@@ -592,6 +604,7 @@
 47.0.0.0/8			Alisoft
 48.192.0.0/10		Microsoft
 49.160.0.0/12		Xpeed
+49.248.192.0/19		Tata-Telco
 49.64.0.0/11		Chinanet
 5.101.0.0/16		DatacenterNET
 5.135.238.0/24		OVH
@@ -600,6 +613,7 @@
 5.196.0.0/16		OVH
 5.45.100.0/22		NETCUP
 5.75.176.0/20		Cloud-NBG1
+50.2.0.0/15			EONIX
 51.159.0.0/16		OnlineNet
 51.178.236.0/24		OVH
 51.44.0.0/16		AWS
@@ -633,6 +647,7 @@
 58.18.0.0/16		Unicom
 58.208.0.0/12		Chinanet
 58.224.0.0/12		broadNnet
+58.245.27.0/15		Unicom
 59.0.0.0/11			Korea-Telecom
 59.124.0.0/14		HiNet
 59.126.0.0/16		HiNet
@@ -674,6 +689,7 @@
 69.164.192.0/19		Linode
 69.87.192.0/20		Esited
 71.6.128.0/17		Carinet
+71.80.0.0/12		CharterCommunications
 72.176.0.0/12		RRSW
 72.255.48.0/18		Cybernet
 73.0.0.0/8			Comcast
@@ -702,6 +718,7 @@
 79.46.0.0/17		TelecomADSL
 8.128.0.0/11		Alibaba
 8.208.0.0/12		ASEPL
+8.208.0.0/12		Alibaba
 80.183.0.0/17		TelecomADSL
 80.251.208.0/20		Unspecified
 80.64.30.0/24		HorizonMSK
