@@ -36,6 +36,7 @@
 103.76.84.0/22		Slash22
 103.81.84.0/22		HostingViet
 103.82.240.0/22		EXBCOID
+103.96.72.0/22		HCPTL
 104.152.52.0/22		Rethem
 104.167.220.0/22	Dedioutlet
 104.234.0.0/16		Velcom
@@ -373,6 +374,7 @@
 185.196.220.0/24	Hostslick
 185.196.8.0/22		SC-Global-Data
 185.198.44.0/23		Scortel1
+185.206.164.0/22	Yandex
 185.208.156.0/22	SC-Global-Data
 185.213.165.0/24	Greenweb
 185.213.172.0/22	NextGenWebs
@@ -430,6 +432,7 @@
 195.164.128.0/17	OSE
 195.178.110.0/24	TechoffSrv
 195.191.218.0/23	VeloxServ
+195.211.188.0/22	PitlineNet
 195.3.144.0/22		RN-Data
 195.3.220.0/22		PL-MEV
 195.82.146.0/23		EE-VLTDWeller
@@ -546,7 +549,7 @@
 36.40.0.0/13		Chinanet
 36.64.0.0/11		Telkomnet
 36.96.0.0/11		Chinanet
-37.10.112.0/23		HydraCom
+37.10.112.0/22		HydraCom
 37.110.64.0/18		NCN-BBCust
 37.192.112.0/21		NTK
 37.27.208.0/23		Hetzner
@@ -584,6 +587,7 @@
 43.152.0.0/13		ACEVILLEPTELTD-SG
 43.159.128.0/18		ACE
 43.200.0.0/13		AWS
+43.224.0.0/22		GUJARATKUTCHNETWORK
 43.248.184.0/22		PGYIDC
 44.192.0.0/10		AWS
 45.118.160.0/22		YOTTA
@@ -614,8 +618,7 @@
 45.83.64.0/22		Internet-Research
 45.94.31.0/24		LEET
 45.94.31.0/24		Tencent
-46.101.0.0/18		DigitalOcean
-46.101.128.0/17		Digitalocean
+46.101.0.0/16		DigitalOcean
 46.176.0.0			HOL-Broadband
 46.19.138.0/24		Client1060
 46.19.143.0/24		Client1096
@@ -816,6 +819,7 @@
 94.159.104.0/21		H2Nexus
 94.201.32.0/19		Emirates-Integrated-Telecom
 95.0.0.0/12			TurkTelecom
+95.111.240.0/20		Contabo
 95.142.46.0/24		VDSINANet
 95.181.238.0/24		M247
 95.211.228.0/22		Leaseweb
