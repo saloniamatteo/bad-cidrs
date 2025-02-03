@@ -11,6 +11,7 @@
 101.37.0.0/16		Alisoft
 101.47.162.0/24		Byteplus
 101.47.167.0/24		Byteplus
+101.47.64.0/20		Byteplus
 101.47.67.0/24		Byteplus
 101.55.64.0/20		Korea-Data
 101.55.80.0/23		Korea-Data
@@ -29,6 +30,7 @@
 103.29.68.0/23		Linode
 103.29.70.0/23		Linode
 103.36.84.0/22		TISS
+103.42.29.0/24		HK-United
 103.54.16.0/22		Slash22
 103.76.84.0/22		Slash22
 103.81.84.0/22		HostingViet
@@ -82,6 +84,7 @@
 114.72.0.0/14		OptusInternet
 114.80.0.0/12		Chinanet
 115.136.0.0/13		Xpeed
+115.160.0.0/17		SCSNet
 115.168.0.0/14		Chinanet
 115.190.0.0/15		Volcano-Engine
 115.240.0.0/13		Jio
@@ -169,6 +172,7 @@
 135.125.0.0/16		VPS-GRA8
 135.148.0.0/16		OVH
 136.24.0.0/13		WebPA
+137.184.0.0/16		DigitalOcean
 137.74.0.0/16		OVH
 138.124.118.0/24	AezaNet
 138.124.14.0/24		AezaNet
@@ -202,6 +206,7 @@
 146.190.0.0/16		DigitalOcean
 146.70.65.0/24		GlobalAXS
 147.139.0.0/16		Alibaba
+147.182.128.0/17	DigitalOcean
 147.185.132.0/22	PAN22
 147.185.136.0/22	PAN22
 147.189.131.0/24	Smarthost
@@ -227,6 +232,7 @@
 152.42.128.0/17		DigitalOcean
 152.53.116.0/22		ANX-Holding
 154.203.197.0/24	Kprohost
+154.204.177.0/24	Fastmos
 154.212.141.0/24	CloudInnovation
 154.213.184.0/21	Pfcloud-UG
 154.213.193.0/24	ThreeXTech
@@ -362,6 +368,7 @@
 185.196.220.0/24	Hostslick
 185.196.8.0/22		SC-Global-Data
 185.198.44.0/23		Scortel1
+185.208.156.0/22	SC-Global-Data
 185.213.165.0/24	Greenweb
 185.213.172.0/22	NextGenWebs
 185.217.1.0/24		ICME-Customers
@@ -410,6 +417,7 @@
 194.26.192.0/24		1337Services
 194.31.223.0/24		Play2GO-Customers
 194.34.23.0/24		NTS
+194.35.120.0/24		Contabo
 194.38.23.0/24		NTS
 194.44.16.0/24		UARNet
 194.50.16.0/24		Alsycon
@@ -452,6 +460,7 @@
 203.6.224.0/20		Chinanet
 204.10.192.0/22		AccurisHosting
 204.188.192.0/18	Sharktech
+204.76.203.0/24		PFCloud
 205.210.31.0/24		PAN22
 206.168.32.0/22		Censys
 206.189.0.0/16		DigitalOcean
@@ -460,6 +469,7 @@
 207.90.244.0/24		Shodan
 208.77.176.0/21		Douglas-Fastnet
 209.38.0.0/16		DigitalOcean
+209.97.128.0/18		DigitalOcean
 210.16.128.0/18		ShanghaiMeicheng
 211.109.0.0/16		SK-Broadband
 211.251.20.0/22		Korea-Telecom
@@ -477,6 +487,7 @@
 216.131.114.0/24	Netpr-FRA
 216.131.64.0/18		STRTech
 216.218.128.0/17	HurricaneElectric
+216.74.224.0/19		Logix
 217.160.227.0/24	IONOS
 217.182.186.0/24	OVH
 217.80.0.0/12		DTAG-DIAL14
@@ -587,6 +598,7 @@
 45.227.254.0/24		XWIN
 45.33.0.0/17		Linode
 45.38.0.0/15		EGI-Hosting
+45.43.32.0/19		Zenlayer
 45.55.0.0/16		DigitalOcean
 45.66.129.0/24		Virmach
 45.66.244.0/22		Bamboozle2
@@ -626,6 +638,7 @@
 52.148.0.0/14		Microsoft
 52.152.0.0/13		Microsoft
 52.160.0.0/11		Microsoft
+52.224.0.0/11		Microsoft
 52.64.0.0/12 		AWS
 54.144.0.0/12		AWS
 54.160.0.0/11		AWS
@@ -719,7 +732,9 @@
 8.128.0.0/11		Alibaba
 8.208.0.0/12		ASEPL
 8.208.0.0/12		Alibaba
+8.208.0.0/12		Alibaba
 80.183.0.0/17		TelecomADSL
+80.245.93.0/24		MD-Rapid-Net
 80.251.208.0/20		Unspecified
 80.64.30.0/24		HorizonMSK
 80.66.76.0/24		XhostisNET
@@ -731,6 +746,7 @@
 81.17.0.0/19		PrivateLayer
 82.165.208.0/21		IONOS
 82.165.96.0/21		RHR-BAP-NGCS
+82.209.142.0/23		Bredband2
 82.64.0.0/14		PROXAD
 83.147.255.0/24		AezaNet
 83.168.69.0/24		SkillHost
@@ -763,6 +779,7 @@
 88.206.0.0/18		IntersvNet
 88.214.25.0/24		One-Host
 88.218.45.0/24		Fine-Group-Servers
+89.168.0.0/17		Oracle
 89.175.4.0/24		AtomEkspert24
 89.248.163.0/24		NET3-163
 89.248.172.0/24		NET2
@@ -783,14 +800,16 @@
 93.99.115.0/24		BlucinaNet
 94.102.55.0/24		NET4
 94.114.0.0/17		UnityMedia
-94.136.184.0/21		TT
+94.136.184.0/21		Contabo
 94.154.32.0/21		WebNetwork
 94.156.177.0/24		Virtualine-Technologies
 94.159.104.0/21		H2Nexus
 94.201.32.0/19		Emirates-Integrated-Telecom
 95.142.46.0/24		VDSINANet
 95.181.238.0/24		M247
+95.211.228.0/22		Leaseweb
 95.214.52.0/22		PL-MEV
 95.224.0.0/12		Alice
 95.84.128.0/19		NCN-BBCust
 98.159.32.0/20		LogicWeb
+98.80.0.0/12		AWS
