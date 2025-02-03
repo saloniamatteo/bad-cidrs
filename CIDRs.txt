@@ -4,6 +4,7 @@
 1.6.53.0/24			Sify
 101.126.144.0/21	Volcano-Engine
 101.160.0.0/11		Telstra
+101.2.160.0/21		CTGOnlineNet
 101.200.0.0/15		Alibaba
 101.224.0.0/13		Chinanet
 101.36.121.0/24		Ucloud
@@ -37,6 +38,7 @@
 103.82.240.0/22		EXBCOID
 104.152.52.0/22		Rethem
 104.167.220.0/22	Dedioutlet
+104.234.0.0/16		Velcom
 104.248.0.0/16		DigitalOcean
 104.40.0.0/13		Microsoft
 105.96.0.0/12		AlgerieTelecom
@@ -54,6 +56,7 @@
 109.121.162.0/24	Novonet
 109.172.4.0/22		JSCIOT
 109.202.99.0/24		GlobalLayer
+109.205.213.0/24	Razinet
 109.236.61.0/24		Botshield-V4
 109.238.152.0/21	INET
 109.68.184.0/22		TEL-NET
@@ -283,6 +286,7 @@
 168.253.90.0/24		CMV-TER1
 169.228.0.0/16		UCSDNet
 170.106.0.0/16		ACEVILLEPTELTD-SG
+170.130.0.0/16		Eonix
 170.187.128.0/17	Linode
 170.210.0.0/16		ARIU
 170.239.176.0/22	Unknown
@@ -311,6 +315,7 @@
 176.65.138.0/24		NET2
 176.98.0.0/19		CrystalNet
 177.10.144.0/21		Unknown
+177.222.96.0/19		WiMaxTIGO
 177.96.0.0/14		Telefonica-Brazil
 178.128.0.0/16		DigitalOcean
 178.132.108.0/24	PacketHub
@@ -402,6 +407,7 @@
 193.163.71.0/24		JMT-Paso
 193.176.85.0/24		M247RO
 193.200.134.0/24	XNNet
+193.200.78.0/24		OptiBounce
 193.218.118.0/24	URDN
 193.227.166.0/24	LBDM
 193.233.253.0/24	XorekCloud
@@ -507,6 +513,7 @@
 31.120.0.0/16		BTNET
 31.202.128.0/18		Kharkov-MaxNet
 31.210.208.0/21		Kvant-Telecom
+31.58.142.0/23		RIPE-Private-Customer
 34.128.0.0/10		GCP
 34.16.0.0/12		GCP
 34.32.0.0/11		GCP
@@ -588,6 +595,7 @@
 45.144.227.0/24		CyberZ
 45.148.10.0/24		DMZHost
 45.148.145.0/24		Lay
+45.149.241.0/24		Nybula
 45.156.128.0/24		INAP-AMS
 45.156.129.0/24		INAP-CHI-1
 45.156.131.0/24		ICG2
@@ -756,6 +764,7 @@
 84.207.244.0/24		EUN-Infstr
 84.216.0.0/14		Telenor-Sverige
 84.239.42.0/24		Castlegem
+84.246.85.0/24		Stark
 84.247.48.0/24		M247
 84.39.112.0/24		M247
 85.162.0.0/15		Cetin
@@ -771,6 +780,7 @@
 87.120.115.0/24		Ekabi
 87.120.127.0/24		Ekabi
 87.120.165.0/24		Play2GO-Customers
+87.121.84.0/24		VaultHost
 87.121.86.0/24		Nybula
 87.236.176.0/24		DriftNet
 88.174.0.0/15		PROXAD
@@ -805,6 +815,7 @@
 94.156.177.0/24		Virtualine-Technologies
 94.159.104.0/21		H2Nexus
 94.201.32.0/19		Emirates-Integrated-Telecom
+95.0.0.0/12			TurkTelecom
 95.142.46.0/24		VDSINANet
 95.181.238.0/24		M247
 95.211.228.0/22		Leaseweb
