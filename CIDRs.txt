@@ -77,6 +77,7 @@
 112.64.0.0/15		Unicom
 112.74.0.0/16		Alisoft
 112.81.84.0/22		Yushanme-Suzhou
+112.88.0.0/13		Unicom
 113.120.0.0/13		Chinanet
 113.44.0.0/14		HWCS-Net
 113.64.0.0/11		Chinanet
@@ -205,6 +206,7 @@
 142.93.0.0/16		DigitalOcean
 143.110.128.0/17	DigitalOcean
 143.198.0.0/16		DigitalOcean
+143.244.48.0/22		Datacamp
 144.126.128.0/19	Contabo
 146.19.24.0/24		PL-MEV
 146.190.0.0/16		DigitalOcean
@@ -238,7 +240,7 @@
 154.203.197.0/24	Kprohost
 154.204.177.0/24	Fastmos
 154.212.141.0/24	CloudInnovation
-154.213.184.0/21	Pfcloud-UG
+154.213.184.0/21	PFcloud
 154.213.193.0/24	ThreeXTech
 154.213.196.0/24	ThreeXTech
 154.216.18.0/24		Silent-Connections
@@ -379,6 +381,7 @@
 185.213.165.0/24	Greenweb
 185.213.172.0/22	NextGenWebs
 185.217.1.0/24		ICME-Customers
+185.224.0.0/24		PFcloud
 185.224.129.0/24	SpectraIP-customers
 185.226.197.0/24	ICG4
 185.231.49.0/24		Internet Projects
@@ -469,7 +472,7 @@
 203.6.224.0/20		Chinanet
 204.10.192.0/22		AccurisHosting
 204.188.192.0/18	Sharktech
-204.76.203.0/24		PFCloud
+204.76.203.0/24		PFcloud
 205.210.31.0/24		PAN22
 206.168.32.0/22		Censys
 206.189.0.0/16		DigitalOcean
@@ -483,6 +486,7 @@
 211.109.0.0/16		SK-Broadband
 211.251.20.0/22		Korea-Telecom
 211.50.0.0/16		Boranet
+211.60.0.0/16		Boranet
 212.193.31.0/24		AezaNet
 212.227.64.0/23		IONOS
 212.3.192.0/19		LMT-LV
@@ -497,12 +501,14 @@
 216.131.64.0/18		STRTech
 216.218.128.0/17	HurricaneElectric
 216.74.224.0/19		Logix
+216.81.128.0/17		LightEdge
 217.160.227.0/24	IONOS
 217.182.186.0/24	OVH
 217.80.0.0/12		DTAG-DIAL14
 218.0.0.0/7			Chinanet
 220.0.0.0/6			Chinanet
 23.129.64.0/24 		Emerald-Onion
+23.176.184.0/24		PFcloud
 23.235.160.0/19		XiaoXiao
 23.237.0.0/16		FDCServers
 23.94.0.0/15		HostPapa
@@ -519,6 +525,7 @@
 31.58.142.0/23		RIPE-Private-Customer
 34.128.0.0/10		GCP
 34.16.0.0/12		GCP
+34.192.0.0/10		AWS
 34.32.0.0/11		GCP
 34.4.128.0/17		GCP
 34.4.16.0/20		GCP
@@ -770,6 +777,7 @@
 84.246.85.0/24		Stark
 84.247.48.0/24		M247
 84.39.112.0/24		M247
+85.105.0.0/16		TurkTelecom
 85.162.0.0/15		Cetin
 85.224.0.0/13		Telenor
 85.237.57.0/24		JSC-Volgatelecom
@@ -781,6 +789,7 @@
 87.106.228.0/23		NGCS
 87.120.112.0/24		Ekabi
 87.120.115.0/24		Ekabi
+87.120.126.0/24		Ekabi
 87.120.127.0/24		Ekabi
 87.120.165.0/24		Play2GO-Customers
 87.121.84.0/24		VaultHost
@@ -801,6 +810,7 @@
 90.84.168.0/21		Orange
 91.107.224.0/19		Cloud-NBG1
 91.160.0.0/12		Scaleway
+91.217.119.0/24		Teknosos
 91.238.181.0/24		OnehostNet
 92.118.39.0/24		DMZHost
 92.119.36.0/24		PrefixBroker
