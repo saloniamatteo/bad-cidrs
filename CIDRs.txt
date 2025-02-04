@@ -132,6 +132,7 @@
 122.144.0.0/16		ZZGiant
 122.154.0.0/15		CAT
 122.160.0.0/14		ABTS-DSL
+122.184.0.0/14		Bharti
 122.187.0.0/16		Bharti
 122.192.0.0/14		Unicom
 122.32.0.0/12		Xpeed
@@ -144,6 +145,7 @@
 124.236.0.0/14		Chinanet
 124.48.0.0/12		Xpeed
 125.124.0.0/16		Chinanet
+125.176.0.0/12		Xpeed
 125.19.85.0/24		BTNL-DSL
 125.209.64.0/18		Multinet-PK
 125.72.52.0/22		Chinanet
@@ -357,6 +359,7 @@
 183.81.184.0/21		Camintel
 184.104.0.0/15		HurricaneElectric
 185.10.68.0/24		FlokiNet
+185.100.234.0/24	Worldstream
 185.100.87.0/24		FlokiNet
 185.12.56.0/22		Blix
 185.132.53.0/24		XOR
@@ -391,6 +394,7 @@
 185.42.12.0/24		HorizonMSK
 185.55.64.0/23		Spidernet
 185.6.52.0/22		VTelecom
+185.7.214.0/24		Changway
 185.82.218.0/23		ITLDC2-SOF1
 185.91.127.0/24		Tube VPS
 186.233.176.0/21	Raimax
@@ -459,6 +463,7 @@
 20.64.0.0/10		Microsoft
 200.105.128.0/19	Acelerate
 200.110.128.0/20	THSOLUCIONES
+202.105.0.0/16		Chinanet
 202.28.0.0/15		Uninet
 202.53.94.0/24		Nettlinx
 202.69.32.0/20		GerrysNet
@@ -499,6 +504,7 @@
 216.10.240.0/20		PdrsolutionsFZC
 216.131.114.0/24	Netpr-FRA
 216.131.64.0/18		STRTech
+216.144.240.0/20	Limestone
 216.218.128.0/17	HurricaneElectric
 216.74.224.0/19		Logix
 216.81.128.0/17		LightEdge
@@ -580,6 +586,7 @@
 40.76.0.0/14		Microsoft
 40.80.0.0/12		Microsoft
 40.96.0.0/12		Microsoft
+41.10.0.0/16		Vodacom-Enterprise
 41.193.56.0/21		Vox-Telecom
 42.100.0.0/16		Chinanet
 42.202.0.0/15		Chinanet
@@ -736,6 +743,7 @@
 77.80.0.0/12		Bulgarian-Telco
 77.90.11.0/24		IPNet
 77.90.22.0/24		myPrepaidServer
+78.110.160.0/20		UK-Servers
 78.110.48.0/20		RU-City-Telecom1
 78.153.140.0/24		HostGlobalPlus
 78.189.74.0/23		TurkTelecom
