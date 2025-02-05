@@ -770,7 +770,7 @@
 79.117.224.0/24		DigiES
 79.124.56.0/24		Tamatiya-EOOD
 79.137.7.0/24		OVH
-79.143.189.0/22		Contabo
+79.143.188.0/22		Contabo
 79.175.128.0/18		Afranet
 79.44.128.0/17		TelecomADSL
 79.46.0.0/17		TelecomADSL
