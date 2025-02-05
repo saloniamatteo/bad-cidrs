@@ -19,12 +19,14 @@
 101.64.0.0/11		Chinanet
 102.211.152.0/23	Afrinic
 102.216.219.0/24	Rimate-Enterprises
+103.108.94.0/24		Intergrid
 103.130.198.0/23	Abhinawa
 103.133.214.0/23	eWebGuru
 103.146.158.0/24	HK-KXSY
 103.149.27.0/24		Ucloud-HK
 103.168.82.0/23		Sandhya
 103.190.91.0/24		Wifiwala
+103.191.74.0/23		Progenet
 103.20.102.0/23		TAK
 103.203.56.0/22		IPIP
 103.203.72.0/22		Railtel
@@ -39,6 +41,7 @@
 103.82.240.0/22		EXBCOID
 103.96.72.0/22		HCPTL
 104.152.52.0/22		Rethem
+104.158.0.0/16		Vianettv
 104.167.220.0/22	Dedioutlet
 104.234.0.0/16		Velcom
 104.248.0.0/16		DigitalOcean
@@ -46,6 +49,7 @@
 105.96.0.0/12		AlgerieTelecom
 106.104.0.0/14		NCICNet
 106.112.0.0/13		Chinanet
+106.12.0.0/15		Baidu
 106.14.0.0/15		Alibaba
 106.240.0.0/12		Boranet
 106.36.0.0/14		Chinanet
@@ -602,6 +606,7 @@
 41.10.0.0/16		Vodacom-Enterprise
 41.193.56.0/21		Vox-Telecom
 42.100.0.0/16		Chinanet
+42.123.64.0/18		Chinanet
 42.202.0.0/15		Chinanet
 42.240.128.0/17		Ucloud
 42.51.0.0/17		HTUNet
