@@ -44,3 +44,17 @@ Safe to say, if a CIDR is listed, it means somebody in that network did somethin
 
 Note: most Chinese CIDRs are listed, not because I want to arbitrarily censor countries,
 but because most scanners have a Chinese IP. Obviously, other countries are listed as well.
+
+## Banning listed CIDRs with ufw
+Adding the listed CIDRs to ufw is really easy, and only takes one command:
+
+```
+./ufw_ban_cidrs.sh
+```
+
+Additionally, the following options can be used:
+- `-h`, `--help`: Display help message
+- `-d`, `--dry-run`: Do not run ufw; only show which CIDRs would be banned
+- `-s`, `--silent`: Do not print 'Skipping (already inserted)' messages
+
+Adding the whole list takes anywhere between 5 to 10 minutes on a modern machine.
