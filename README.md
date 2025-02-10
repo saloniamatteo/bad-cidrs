@@ -57,4 +57,5 @@ Additionally, the following options can be used:
 - `-d`, `--dry-run`: Do not run ufw; only show which CIDRs would be banned
 - `-s`, `--silent`: Do not print 'Skipping (already inserted)' messages
 
-Adding the whole list takes anywhere between 5 to 10 minutes on a modern machine.
+Adding the whole list (which contains more than 900 entries)
+takes anywhere between 5 to 10 minutes on a modern machine.
