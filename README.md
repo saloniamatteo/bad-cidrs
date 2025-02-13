@@ -45,6 +45,51 @@ Safe to say, if a CIDR is listed, it means somebody in that network did somethin
 Note: most Chinese CIDRs are listed, not because I want to arbitrarily censor countries,
 but because most scanners have a Chinese IP. Obviously, other countries are listed as well.
 
+## `host.sh` script
+This script is used to aid in creating the CIDRs.txt list.
+
+It is possible to use it without any further configuration,
+however further features exist to return more data.
+
+You can obtain the `country_asn.csv` file from the following:
+[ipinfo.io/products/free-ip-database](https://ipinfo.io/products/free-ip-database)
+
+(Choose IP to Country + ASN, CSV)
+
+The file is approximately 225 MB.
+
+Example execution (no CSV DB):
+
+```bash
+$ ./host.sh 98.80.1.2
+IP: 98.80.1.2
+route: 98.80.0.0/13
+origin: AS14618
+descr: Amazon EC2 IAD Prefix
+route: 98.80.0.0/13
+origin: AS16509
+descr: Amazon EC2 IAD Prefix
+```
+
+Please note that the values above are returned exactly
+as written in the WHOIS lookup response.
+
+Example execution (with CSV DB):
+
+```bash
+$ ./host.sh 98.80.1.2
+IP: 98.80.1.2
+CIDR: 98.80.0.0/13
+Range: 98.80.0.0 - 98.95.255.255
+Country: United States (US)
+Continent: North America (NA)
+ASN: AS14618
+Company: "Amazon.com, Inc."
+Website: amazon.com
+```
+
+The values above are fetched from each column of the CSV file.
+
 ## Banning listed CIDRs with ufw
 Adding the listed CIDRs to ufw is really easy, and only takes one command:
 
