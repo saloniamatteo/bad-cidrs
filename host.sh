@@ -32,13 +32,13 @@ echo "IP: $1"
 DIRNAME=$(dirname "$0")
 
 # country_asn.csv location
-CSVFILE="$DIRNAME/country_asn.csv"
-
-# Check if the file "country_asn.csv" exists
 # You can get this file from the following website:
 # https://ipinfo.io/products/free-ip-database
 # (Choose IP to Country + ASN, CSV)
 # The file is approximately 225 MB.
+CSVFILE="$DIRNAME/country_asn.csv"
+
+# Check if the file "country_asn.csv" exists
 if [ ! -f "${CSVFILE}" ]; then
     # Since we do not have the file, try to get
     # as much info from the WHOIS lookup as possible.
@@ -89,8 +89,11 @@ if [ ! -z "${cidr}" ]; then
 
     # Check query
     if [ ! -z "${query}" ]; then
-        start_range=$(cut -d',' -f1 <<<$query)
-        end_range=$(cut -d',' -f2 <<<$query)
+        #start_range=$(cut -d',' -f1 <<<$query)
+        #end_range=$(cut -d',' -f2 <<<$query)
+
+        # Calculate range from CIDR instead of relying on DB data
+        range=$(sipcalc ${cidr} | awk '/Network range/ {print $4 " " $5 " " $6}')
 
         country=$(cut -d',' -f3 <<<$query)
         country_name=$(cut -d',' -f4 <<<$query)
@@ -102,7 +105,8 @@ if [ ! -z "${cidr}" ]; then
         company=$(grep -oP '"[^"]+"' <<<$query)
         website=$(awk -F, '{print $NF}' <<<$query)
 
-        echo "Range: ${start_range} - ${end_range}"
+        #echo "Range: ${start_range} - ${end_range}"
+        echo "Range: ${range}"
         echo "Country: ${country_name} (${country})"
         echo "Continent: ${continent_name} (${continent})"
         echo "ASN: ${asn}"
