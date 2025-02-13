@@ -24,6 +24,7 @@
 103.133.214.0/23	eWebGuru
 103.146.158.0/24	HK-KXSY
 103.149.27.0/24		Ucloud-HK
+103.164.8.0/23		KEL-PK
 103.168.82.0/23		Sandhya
 103.190.91.0/24		Wifiwala
 103.191.74.0/23		Progenet
@@ -43,6 +44,7 @@
 104.152.52.0/22		Rethem
 104.158.0.0/16		Vianettv
 104.167.220.0/22	Dedioutlet
+104.208.0.0/13		Microsoft
 104.234.0.0/16		Velcom
 104.248.0.0/16		DigitalOcean
 104.40.0.0/13		Microsoft
@@ -125,6 +127,7 @@
 119.23.0.0/16		Alisoft
 119.48.0.0/13		Unicom
 119.64.0.0/13		Xpeed
+120.133.0.0/16		Vianet-CNNIC
 120.144.0.0/12		Telstra
 120.192.0.0/10		Cmnet
 120.24.0.0/14		Alisoft
@@ -188,6 +191,7 @@
 134.110.0.0/16		WTNet
 134.122.0.0/17		DigitalOcean
 134.17.128.0/19		MTSBY
+134.209.0.0/16		DigitalOcean
 134.91.0.0/16		WTNet
 134.92.0.0/14		WTNet
 134.96.0.0/13		WTNet
@@ -215,6 +219,7 @@
 14.64.0.0/11		Korea-Telecom
 140.246.0.0/16		Chinanet
 140.249.0.0/16		Chinanet
+141.11.166.0/24		RIPE-Private-Customer
 141.148.0.0/16		Oracle
 141.227.130.0/24	PCI-LZ-AMS
 141.255.160.0/21	PrivateLayer
@@ -432,6 +437,7 @@
 188.166.0.0/17		DigitalOcean
 188.166.160.0/20	DigitalOcean
 188.166.224.0/20	DigitalOcean
+188.192.0.0/15		Kabel-DE
 188.26.192.0/21		ES-Residential
 189.113.32.0/20		NetTurbo-BR
 190.13.224.0/20		CoopTortu
@@ -459,6 +465,7 @@
 194.26.192.0/24		1337Services
 194.31.223.0/24		Play2GO-Customers
 194.34.23.0/24		NTS
+194.34.255.0/24		CGI-Global
 194.35.120.0/24		Contabo
 194.38.23.0/24		NTS
 194.44.16.0/24		UARNet
@@ -544,6 +551,7 @@
 216.218.128.0/17	HurricaneElectric
 216.74.224.0/19		Logix
 216.81.128.0/17		LightEdge
+217.145.79.0/24		CGI-Global
 217.160.227.0/24	IONOS
 217.182.186.0/24	OVH
 217.80.0.0/12		DTAG-DIAL14
@@ -566,7 +574,11 @@
 31.202.128.0/18		Kharkov-MaxNet
 31.210.208.0/21		Kvant-Telecom
 31.32.0.0/12		Microsoft
+31.58.137.0/24		CGI-Global
+31.58.141.0/24		CGI-Global
 31.58.142.0/23		RIPE-Private-Customer
+31.59.114.0/24		CGI-Global
+31.59.185.0/24		CGI-Global
 32.208.0.0/12		Frontier-Communications
 34.128.0.0/10		GCP
 34.16.0.0/12		GCP
@@ -648,6 +660,7 @@
 43.248.184.0/22		PGYIDC
 44.192.0.0/10		AWS
 45.118.160.0/22		YOTTA
+45.12.0.0/22		Vyacheslav-Smyrnov
 45.135.92.0/22		IMAQLIQ
 45.139.104.0/24		Net493
 45.139.252.0/24		CyberZ
@@ -676,6 +689,7 @@
 45.94.31.0/24		LEET
 45.94.31.0/24		Tencent
 46.101.0.0/16		DigitalOcean
+46.105.0.0/16		OVH
 46.176.0.0			HOL-Broadband
 46.19.138.0/24		Client1060
 46.19.143.0/24		Client1096
@@ -689,6 +703,7 @@
 49.64.0.0/11		Chinanet
 5.101.0.0/16		DatacenterNET
 5.135.238.0/24		OVH
+5.139.224.0/20		Karachaevo-Cherkesskelektrosvyaz
 5.180.252.0/23		RUB08
 5.181.188.0/22		PL-MEV
 5.196.0.0/16		OVH
@@ -757,6 +772,7 @@
 64.124.176.0/21		AboveNet
 64.124.184.0/22		AboveNet
 64.181.128.0/17		ORCL-SLDC1
+64.226.64.0/18		DigitalOcean
 64.227.0.0/17		DigitalOcean
 64.227.128.0/18		DigitalOcean
 64.23.128.0/17		DigitalOcean
@@ -823,6 +839,7 @@
 82.165.208.0/21		IONOS
 82.165.96.0/21		RHR-BAP-NGCS
 82.209.142.0/23		Bredband2
+82.23.177.0/24		RIPE-Private-Customer
 82.64.0.0/14		PROXAD
 83.147.255.0/24		AezaNet
 83.168.69.0/24		SkillHost
@@ -842,6 +859,7 @@
 84.39.112.0/24		M247
 85.105.0.0/16		TurkTelecom
 85.162.0.0/15		Cetin
+85.209.229.0/24		CGI-Global
 85.224.0.0/13		Telenor
 85.237.57.0/24		JSC-Volgatelecom
 85.31.47.0/24		NybulaNet
@@ -849,6 +867,7 @@
 86.2.0.0/20			VMCBBUK
 86.60.208.0/20		SSP-NGN
 87.103.0.0/17		Vodafone-PT
+87.106.212.0/24		IONOS
 87.106.228.0/23		NGCS
 87.120.112.0/24		Ekabi
 87.120.115.0/24		Ekabi
@@ -858,6 +877,7 @@
 87.121.84.0/24		VaultHost
 87.121.86.0/24		Nybula
 87.236.176.0/24		DriftNet
+87.242.69.0/24		Masterhost
 87.64.64.0/20		Proximus
 88.174.0.0/15		PROXAD
 88.176.0.0/13		PROXAD
@@ -886,6 +906,7 @@
 93.174.95.0/24		NET3-95
 93.188.82.0/23		UZTelecom
 93.99.115.0/24		BlucinaNet
+94.102.49.0/24		IP-Volume
 94.102.55.0/24		NET4
 94.114.0.0/17		UnityMedia
 94.136.184.0/21		Contabo
