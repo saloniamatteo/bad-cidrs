@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # This script prints the current IP & its related info.
 #
 # If "country_asn.csv" is available, instead print the following:
@@ -102,7 +102,18 @@ if [ ! -z "${cidr}" ]; then
         continent_name=$(cut -d',' -f6 <<<$query)
 
         asn=$(cut -d',' -f7 <<<$query)
-        company=$(grep -oP '"[^"]+"' <<<$query)
+
+        # Try to fetch company name
+        company=$(cut -d',' -f8 <<<$query)
+
+        # Check if the company name starts with a double quote (")
+        if [[ $company == \"* ]]; then
+            # If it does, we must instead fetch the full text
+            # between the double quotes, stripping them
+            # Example: "My Company" -> My Company
+            company=$(grep -oP '"[^"]+"' <<<$query | sed 's/"//g')
+        fi
+
         website=$(awk -F, '{print $NF}' <<<$query)
 
         #echo "Range: ${start_range} - ${end_range}"
