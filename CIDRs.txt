@@ -3,11 +3,12 @@
 1.232.0.0/14		SK-Broadband
 1.40.0.0/14			Optus-Internet
 1.6.53.0/24			Sify
-101.126.144.0/21	Volcano-Engine
+101.126.0.0/16		Volcano-Engine
 101.160.0.0/11		Telstra
 101.2.160.0/21		CTGOnlineNet
 101.200.0.0/15		Alibaba
 101.224.0.0/13		Chinanet
+101.32.0.0/16		Tencent
 101.36.121.0/24		Ucloud
 101.36.127.0/24		Ucloud
 101.37.0.0/16		Alisoft
@@ -29,10 +30,12 @@
 103.168.82.0/23		Sandhya
 103.190.91.0/24		Wifiwala
 103.191.74.0/23		Progenet
+103.195.188.0/22	Dromatics-Systems
 103.20.102.0/23		TAK
 103.203.56.0/22		IPIP
 103.203.72.0/22		Railtel
 103.227.116.0/22	CNS-Infotel
+103.229.192.0/22	Vietnamhost
 103.252.72.0/23		XOR-Cloud
 103.29.68.0/23		Linode
 103.29.70.0/23		Linode
@@ -43,6 +46,7 @@
 103.81.84.0/22		HostingViet
 103.82.240.0/22		EXBCOID
 103.96.72.0/22		HCPTL
+104.131.0.0/16		DigitalOcean
 104.152.52.0/22		Rethem
 104.158.0.0/16		Vianettv
 104.167.220.0/22	Dedioutlet
@@ -69,6 +73,7 @@
 109.205.213.0/24	Razinet
 109.236.61.0/24		Botshield-V4
 109.238.152.0/21	INET
+109.248.160.0/22	CGI-Global
 109.68.184.0/22		TEL-NET
 110.136.0.0/19		TLKM
 110.184.0.0/13		Chinanet
@@ -138,6 +143,7 @@
 120.68.0.0/14		Chinanet
 120.76.0.0/14		Alisoft
 120.80.0.0/13		Unicom
+121.128.0.0/11		Korea-Telecom
 121.151.201.0/24	Korea-Telecom
 121.202.128.0/17	Smartone
 121.204.0.0/14		Chinanet
@@ -186,6 +192,7 @@
 13.96.0.0/13		Microsoft
 130.250.133.0/24	Tatacomm
 130.250.134.0/24	Tatacomm
+130.61.0.0/16		Oracle
 132.145.0.0/16		OC195
 134.101.128.0/17	PPPoE-Private-Customer
 134.104.0.0/14		WTNet
@@ -364,6 +371,7 @@
 178.178.192.0/22	Megafon
 178.19.224.0/20		Encoline
 178.20.31.0/24		Fine-Group-Servers
+178.215.224.0/24	Nybula
 178.249.209.0/24	CDNEXT-PRG
 178.250.246.0/23	Majordomo net
 178.62.0.0/17		DigitalOcean
@@ -378,6 +386,7 @@
 180.160.0.0/12		Chinanet
 180.224.0.0/13		Xpeed
 180.76.0.0/16		Baidu
+180.95.128.0/17		Unicom
 180.96.0.0/11		Chinanet
 181.212.0.0/16		Unknown
 181.48.0.0/13		Unknown
@@ -496,12 +505,17 @@
 195.88.120.0/23		Parus-Telecom
 195.88.87.0/24		Contabo
 195.91.4.0/24		GPRS-PAT
+196.251.114.0/24	Nybula
+196.251.118.0/24	Nybula
+196.251.64.0/22		Rakesh-Telesoft
+196.251.80.0/21		CheapyHost
 197.144.0.0/14		WanaCorp
 197.221.232.0/22	WTTx-Broadband
 198.235.24.0/24		PAN22
 198.244.250.0/24	OVH
 199.195.248.0/21	Ponynet
 199.45.154.0/23		Censy
+2.52.0.0/14			Orange
 2.57.122.0/24		DMZHost
 2.7.88.0/21			IP2000
 20.128.0.0/16		Microsoft
@@ -523,6 +537,7 @@
 202.95.0.0/19		RCPL
 203.12.200.0/21		CTHKI
 203.163.224.0/19	HathwayNet
+203.189.192.0/19	Chinanet
 203.56.183.0/24		Chinanet
 203.57.123.0/24		Chinanet
 203.57.254.0/23		Chinanet
@@ -665,6 +680,7 @@
 42.123.64.0/18		Chinanet
 42.202.0.0/15		Chinanet
 42.240.128.0/17		Ucloud
+42.242.0.0/15		Chinanet
 42.51.0.0/17		HTUNet
 42.60.0.0/15		SingNet
 42.63.0.0/16		Unicom
@@ -764,6 +780,7 @@
 58.140.0.0/18		DLIVE
 58.140.64.0/20		DLIVE
 58.140.80.0/21		DLIVE
+58.148.0.0/14		LG-POWERCOMM
 58.18.0.0/16		Unicom
 58.208.0.0/12		Chinanet
 58.224.0.0/12		SK-Broadband
@@ -802,6 +819,7 @@
 64.94.84.0/23		BNL
 65.108.0.0/15		Hetzner
 65.20.128.0/17		EarthLink
+65.38.112.0/20		LISIMS
 65.49.0.0/17		HurricaneElectric
 66.206.32.0/20		Turkey-Internet
 66.240.192.0/18		Carinet
