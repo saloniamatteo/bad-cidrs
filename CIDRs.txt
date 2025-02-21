@@ -621,8 +621,6 @@
 24.176.0.0/13		CharterCommunications
 27.148.0.0/14		Chinanet
 27.16.0.0/12		Chinanet
-3.0.0.0/9			AWS
-3.128.0.0/9 		AWS
 31.120.0.0/16		BTNET
 31.202.128.0/18		Kharkov-MaxNet
 31.210.208.0/21		Kvant-Telecom
@@ -635,7 +633,6 @@
 32.208.0.0/12		Frontier-Communications
 34.128.0.0/10		GCP
 34.16.0.0/12		GCP
-34.192.0.0/10		AWS
 34.32.0.0/11		GCP
 34.4.128.0/17		GCP
 34.4.16.0/20		GCP
