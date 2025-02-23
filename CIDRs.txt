@@ -35,6 +35,7 @@
 103.20.102.0/23		TAK
 103.203.56.0/22		IPIP
 103.203.72.0/22		Railtel
+103.205.60.0/23		VNNIC
 103.211.20.0/22		GTPL-CKBPL
 103.227.116.0/22	CNS-Infotel
 103.229.192.0/22	Vietnamhost
@@ -70,6 +71,7 @@
 107.170.0.0/16		DigitalOcean
 107.172.0.0/14		HostPapa
 107.189.0.0/19		Ponynet
+107.191.32.0/20		Constant
 107.20.0.0/14		AWS
 109.121.162.0/24	Novonet
 109.172.4.0/22		JSCIOT
@@ -100,6 +102,7 @@
 113.120.0.0/13		Chinanet
 113.44.0.0/14		HWCS-Net
 113.64.0.0/11		Chinanet
+114.141.128.0/18	SIN-CN
 114.143.72.0/22		Tatacomm
 114.144.0.0/12		OCN
 114.155.0.0/17		OCN
@@ -112,6 +115,7 @@
 115.160.0.0/17		SCSNet
 115.168.0.0/14		Chinanet
 115.190.0.0/15		Volcano-Engine
+115.224.0.0/12		Chinanet
 115.240.0.0/13		Jio
 115.48.0.0/12		Unicom
 115.72.0.0/13		Viettel
@@ -151,6 +155,7 @@
 120.80.0.0/13		Unicom
 121.128.0.0/11		Korea-Telecom
 121.151.201.0/24	Korea-Telecom
+121.160.0.0/11		Korea-Telecom
 121.202.128.0/17	Smartone
 121.204.0.0/14		Chinanet
 121.224.0.0/12		Chinanet
@@ -235,6 +240,7 @@
 14.32.0.0/11		Korea-Telecom
 14.4.0.0/14			PubnetPlus
 14.64.0.0/11		Korea-Telecom
+140.106.0.0/19		Cogeco
 140.246.0.0/16		Chinanet
 140.249.0.0/16		Chinanet
 141.11.166.0/24		RIPE-Private-Customer
@@ -391,6 +397,7 @@
 178.62.128.0/17		DigitalOcean
 179.42.124.0/22		CHTCH
 179.43.128.0/18		PrivateLayer
+18.216.0.0/14		AWS
 18.32.0.0/11 		AWS
 18.64.0.0/10 		AWS
 180.136.0.0/13		Chinanet
@@ -467,6 +474,7 @@
 186.247.0.0/16		Vtal
 186.6.0.0/16		ClaroNet
 186.96.208.0/20		Amplia
+187.190.0.0/16		Total-Play-Telecom
 188.130.154.0/24	CGI-Global
 188.148.0.0/15		Tele2
 188.166.0.0/17		DigitalOcean
@@ -522,7 +530,9 @@
 195.88.120.0/23		Parus-Telecom
 195.88.87.0/24		Contabo
 195.91.4.0/24		GPRS-PAT
+196.1.192.0/18		Sudatel
 196.240.0.0/15		Orion
+196.251.113.0/24	Nybula
 196.251.114.0/24	Nybula
 196.251.118.0/24	Nybula
 196.251.64.0/22		Rakesh-Telesoft
@@ -563,6 +573,7 @@
 203.6.224.0/20		Chinanet
 204.10.192.0/22		AccurisHosting
 204.188.192.0/18	Sharktech
+204.216.0.0/16		Navisite-Opco
 204.76.203.0/24		PFcloud
 205.210.31.0/24		PAN22
 206.168.32.0/22		Censys
@@ -575,15 +586,18 @@
 209.97.128.0/18		DigitalOcean
 210.16.128.0/18		ShanghaiMeicheng
 210.176.44.0/24		Telstra
+210.207.0.0/16		Vi-Asset-Management
 211.104.0.0/14		Korea-Telecom
 211.109.0.0/16		SK-Broadband
 211.110.0.0/17		SK-Broadband
 211.110.128.0/18	SK-Broadband
 211.110.192.0/19	SK-Broadband
 211.110.224.0/20	SK-Broadband
+211.118.0.0/15		LG-DACOM
 211.180.0.0/15		Boranet
 211.251.20.0/22		Korea-Telecom
 211.50.0.0/16		Boranet
+211.54.0.0/15		Korea-Telecom
 211.60.0.0/16		Boranet
 212.193.31.0/24		AezaNet
 212.227.64.0/23		IONOS
@@ -592,6 +606,7 @@
 212.86.41.0/24		DMZ41
 212.93.108.0/23		LMT-LV
 212.93.115.0/24		LMT-LV
+213.152.160.0/19	GlobalLayer
 213.175.79.0/24		LMT-LV
 213.211.176.0/21	EDPNet
 213.232.87.0/24		NordVPN
@@ -622,6 +637,7 @@
 24.176.0.0/13		CharterCommunications
 27.148.0.0/14		Chinanet
 27.16.0.0/12		Chinanet
+3.136.0.0/13		AWS
 31.120.0.0/16		BTNET
 31.202.128.0/18		Kharkov-MaxNet
 31.210.208.0/21		Kvant-Telecom
@@ -775,6 +791,7 @@
 51.8.0.0/16			Microsoft
 51.81.0.0/16		NCC-Managed-Addr-Block
 52.0.0.0/10			AWS
+52.136.0.0/13		Microsoft
 52.145.0.0/16		Microsoft
 52.146.0.0/15		Microsoft
 52.148.0.0/14		Microsoft
@@ -831,6 +848,7 @@
 64.124.176.0/21		AboveNet
 64.124.184.0/22		AboveNet
 64.181.128.0/17		ORCL-SLDC1
+64.207.224.0/19		Cox
 64.226.64.0/18		DigitalOcean
 64.227.0.0/17		DigitalOcean
 64.227.128.0/18		DigitalOcean
@@ -839,6 +857,7 @@
 64.94.84.0/23		BNL
 65.108.0.0/15		Hetzner
 65.20.128.0/17		EarthLink
+65.20.64.0/19		Constant
 65.38.112.0/20		LISIMS
 65.49.0.0/17		HurricaneElectric
 66.206.32.0/20		Turkey-Internet
@@ -847,6 +866,7 @@
 67.227.128.0/17		LiquidWeb
 67.240.0.0/12		RRNY
 68.183.0.0/16		DigitalOcean
+68.69.184.0/22		DediOutlet
 69.164.192.0/19		Linode
 69.87.192.0/20		Esited
 71.6.128.0/17		Carinet
@@ -899,6 +919,7 @@
 81.161.238.0/24		Nybula-LLC
 81.17.0.0/19		PrivateLayer
 81.214.62.0/23		TurkTelecom
+82.114.64.0/19		Kujtesa
 82.165.124.0/23		IONOS
 82.165.208.0/21		IONOS
 82.165.96.0/21		RHR-BAP-NGCS
@@ -930,6 +951,7 @@
 85.237.57.0/24		JSC-Volgatelecom
 85.31.47.0/24		NybulaNet
 85.85.0.0/16		EuskalTel
+85.96.0.0/12		Turk-Telecom
 86.2.0.0/20			VMCBBUK
 86.60.208.0/20		SSP-NGN
 87.103.0.0/17		Vodafone-PT
@@ -945,6 +967,7 @@
 87.236.176.0/24		DriftNet
 87.242.69.0/24		Masterhost
 87.64.64.0/20		Proximus
+88.151.32.0/22		NextGenWebs
 88.174.0.0/15		PROXAD
 88.176.0.0/13		PROXAD
 88.184.0.0/14		PROXAD
@@ -959,6 +982,7 @@
 90.112.128.0/19		IP2000
 90.84.168.0/21		Orange
 91.107.224.0/19		Cloud-NBG1
+91.121.0.0/16		OVH
 91.160.0.0/12		Scaleway
 91.217.119.0/24		Teknosos
 91.223.75.0/24		PAKT
