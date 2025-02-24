@@ -363,6 +363,7 @@
 172.86.64.0/18		Ponynet
 173.236.128.0/17	DreamHost
 173.249.0.0/18		Contabo
+173.255.192.0/19	Linode
 174.138.0.0/17		DigitalOcean
 175.0.0.0/12		Chinanet
 175.100.80.0/20		Viettel
@@ -627,6 +628,7 @@
 220.0.0.0/6			Chinanet
 23.129.64.0/24 		Emerald-Onion
 23.176.184.0/24		PFcloud
+23.228.90.0/24		LayerHost
 23.235.160.0/19		XiaoXiao
 23.237.0.0/16		FDCServers
 23.239.0.0/19		Linode
@@ -638,7 +640,9 @@
 27.148.0.0/14		Chinanet
 27.16.0.0/12		Chinanet
 3.136.0.0/13		AWS
+3.144.0.0/13		AWS
 31.120.0.0/16		BTNET
+31.135.16.0/20		Swidman
 31.202.128.0/18		Kharkov-MaxNet
 31.210.208.0/21		Kvant-Telecom
 31.32.0.0/12		Microsoft
@@ -758,6 +762,7 @@
 45.66.129.0/24		Virmach
 45.66.244.0/22		Bamboozle2
 45.79.0.0/16		Linode
+45.83.2.0/23		CoolNet-UKR
 45.83.64.0/22		Internet-Research
 45.94.31.0/24		LEET
 45.94.31.0/24		Tencent
@@ -1015,4 +1020,5 @@
 95.224.0.0/12		Alice
 95.84.128.0/19		NCN-BBCust
 98.159.32.0/20		LogicWeb
+98.160.0.0/11		Cox
 98.80.0.0/12		AWS
