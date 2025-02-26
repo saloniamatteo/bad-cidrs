@@ -918,8 +918,6 @@
 79.44.128.0/17		TelecomADSL
 79.46.0.0/17		TelecomADSL
 8.128.0.0/11		Alibaba
-8.208.0.0/12		ASEPL
-8.208.0.0/12		Alibaba
 8.208.0.0/12		Alibaba
 80.183.0.0/17		TelecomADSL
 80.245.93.0/24		MD-Rapid-Net
