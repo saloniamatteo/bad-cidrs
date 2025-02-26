@@ -23,6 +23,7 @@
 102.216.219.0/24	Rimate-Enterprises
 102.48.0.0/13		Maroc-Telecom
 103.108.94.0/24		Intergrid
+103.129.238.0/24	Mazeda-Networks
 103.130.198.0/23	Abhinawa
 103.133.214.0/23	eWebGuru
 103.146.158.0/24	HK-KXSY
@@ -90,6 +91,7 @@
 111.192.0.0/12		Unicom
 111.67.192.0/20		Week5
 112.0.0.0/10		Chinanet
+112.111.0.0/16		Unicom
 112.120.0.0/17		Netnavigator
 112.144.0.0/12		Xpeed
 112.160.0.0/11		Korea-Telecom
@@ -176,6 +178,7 @@
 123.178.0.0/15		Chinanet
 123.208.0.0/14		Telstra
 123.244.0.0/14		Chinanet
+123.56.0.0/15		Alibaba
 124.220.0.0/14		Tencent
 124.236.0.0/14		Chinanet
 124.48.0.0/12		Xpeed
@@ -274,6 +277,7 @@
 148.72.164.0/22		VIG97
 148.72.168.0/21		VIG97
 148.72.176.0/23		VIG97
+149.202.0.0/16		OVH
 149.88.0.0/16		Cogent
 15.179.0.0/16		AWS
 15.180.0.0/14		AWS
@@ -374,6 +378,7 @@
 175.156.0.0/17		M1Net
 175.29.208.0/20		Synertech
 175.30.0.0/18		CC-YIQITONGXIN
+176.108.136.0/21	MonkeyBrains
 176.113.115.0/24	HK-CATTECHNOLOGIES
 176.123.0.0/21		AlexHost
 176.123.8.0/22		AlexHost
@@ -471,6 +476,7 @@
 185.7.214.0/24		Changway
 185.82.218.0/23		ITLDC2-SOF1
 185.91.127.0/24		Tube VPS
+185.92.183.0/24		CGI-Global
 186.233.176.0/21	Raimax
 186.247.0.0/16		Vtal
 186.6.0.0/16		ClaroNet
@@ -568,6 +574,7 @@
 203.12.200.0/21		CTHKI
 203.163.224.0/19	HathwayNet
 203.189.192.0/19	Chinanet
+203.195.64.0/19		Chinanet
 203.56.183.0/24		Chinanet
 203.57.123.0/24		Chinanet
 203.57.254.0/23		Chinanet
@@ -637,6 +644,7 @@
 24.144.64.0/18		DigitalOcean
 24.160.0.0/12		CharterCommunications
 24.176.0.0/13		CharterCommunications
+27.115.0.0/17		Unicom
 27.148.0.0/14		Chinanet
 27.16.0.0/12		Chinanet
 3.136.0.0/13		AWS
@@ -829,6 +837,7 @@
 59.0.0.0/11			Korea-Telecom
 59.124.0.0/14		HiNet
 59.126.0.0/16		HiNet
+59.153.100.0/22		Dot-Internet
 59.176.0.0/13		MNTL
 59.184.0.0/15		MNTL
 59.32.0.0/13		Chinanet
@@ -911,6 +920,7 @@
 8.128.0.0/11		Alibaba
 8.208.0.0/12		ASEPL
 8.208.0.0/12		Alibaba
+8.208.0.0/12		Alibaba
 80.183.0.0/17		TelecomADSL
 80.245.93.0/24		MD-Rapid-Net
 80.251.208.0/20		Unspecified
@@ -989,6 +999,7 @@
 91.107.224.0/19		Cloud-NBG1
 91.121.0.0/16		OVH
 91.160.0.0/12		Scaleway
+91.196.152.0/24		Onyphe
 91.217.119.0/24		Teknosos
 91.223.75.0/24		PAKT
 91.224.92.0/24		UAB-Host-Baltic
