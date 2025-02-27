@@ -3,6 +3,7 @@
 1.232.0.0/14		SK-Broadband
 1.40.0.0/14			Optus-Internet
 1.6.53.0/24			Sify
+1.80.0.0/13			Chinanet
 101.126.0.0/16		Volcano-Engine
 101.160.0.0/11		Telstra
 101.2.160.0/21		CTGOnlineNet
@@ -30,6 +31,7 @@
 103.149.27.0/24		Ucloud-HK
 103.164.8.0/23		KEL-PK
 103.168.82.0/23		Sandhya
+103.180.176.0/23	Webyne
 103.190.91.0/24		Wifiwala
 103.191.74.0/23		Progenet
 103.195.188.0/22	Dromatics-Systems
@@ -89,6 +91,7 @@
 111.112.0.0/15		Chinanet
 111.172.0.0/14		Chinanet
 111.192.0.0/12		Unicom
+111.224.0.0/14		Chinanet
 111.67.192.0/20		Week5
 112.0.0.0/10		Chinanet
 112.111.0.0/16		Unicom
@@ -355,6 +358,7 @@
 170.187.128.0/17	Linode
 170.210.0.0/16		ARIU
 170.239.176.0/22	Unknown
+170.39.216.0/22		FBW-Reseaux-Fibers
 170.64.128.0/17		DigitalOcean
 171.0.0.0/8			APNIC
 172.103.128.0/17	Cipherkey
@@ -478,6 +482,7 @@
 185.82.218.0/23		ITLDC2-SOF1
 185.91.127.0/24		Tube VPS
 185.92.183.0/24		CGI-Global
+185.93.89.0/24		Btcloud
 186.233.176.0/21	Raimax
 186.247.0.0/16		Vtal
 186.6.0.0/16		ClaroNet
@@ -491,6 +496,7 @@
 188.192.0.0/15		Kabel-DE
 188.26.192.0/21		ES-Residential
 189.113.32.0/20		NetTurbo-BR
+189.51.36.0/22		Goias-Telecom
 190.13.224.0/20		CoopTortu
 190.171.128.0/18	CTC-CORP
 192.155.80.0/20		Linode
@@ -771,6 +777,7 @@
 45.66.129.0/24		Virmach
 45.66.244.0/22		Bamboozle2
 45.79.0.0/16		Linode
+45.82.79.0/24		Owl-LTD
 45.83.2.0/23		CoolNet-UKR
 45.83.64.0/22		Internet-Research
 45.94.31.0/24		LEET
