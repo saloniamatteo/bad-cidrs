@@ -160,6 +160,7 @@
 120.80.0.0/13		Unicom
 121.128.0.0/11		Korea-Telecom
 121.151.201.0/24	Korea-Telecom
+121.16.0.0/13		Unicom
 121.160.0.0/11		Korea-Telecom
 121.202.128.0/17	Smartone
 121.204.0.0/14		Chinanet
@@ -435,6 +436,7 @@
 183.192.0.0/10		CMNet
 183.194.0.0/15		CMNet
 183.81.184.0/21		Camintel
+183.96.0.0/11		Korea-Telecom
 184.104.0.0/15		HurricaneElectric
 185.10.68.0/24		FlokiNet
 185.100.234.0/24	Worldstream
@@ -474,6 +476,7 @@
 185.246.128.0/24	W1N-LTD
 185.247.137.0/24	DriftNet
 185.3.232.0/22		Providerbox
+185.39.207.0/24		GlobConnex
 185.42.12.0/24		HorizonMSK
 185.55.64.0/23		Spidernet
 185.6.52.0/22		VTelecom
@@ -562,6 +565,7 @@
 2.57.122.0/24		DMZHost
 2.7.88.0/21			IP2000
 20.128.0.0/16		Microsoft
+20.160.0.0/12		Microsoft
 20.192.0.0/10		Microsoft
 20.33.0.0/16		Microsoft
 20.34.0.0/15		Microsoft
@@ -610,6 +614,7 @@
 211.110.224.0/20	SK-Broadband
 211.118.0.0/15		LG-DACOM
 211.180.0.0/15		Boranet
+211.186.0.0/15		SK-Broadband
 211.251.20.0/22		Korea-Telecom
 211.50.0.0/16		Boranet
 211.54.0.0/15		Korea-Telecom
@@ -903,6 +908,7 @@
 75.75.192.0/19		ACDNet
 76.128.0.0/11		Comcast
 77.106.72.0/21		ERTH-Barnaul
+77.140.0.0/14		SFR
 77.221.136.0/22		AezaNet
 77.226.208.0/24		EXCMOAYUNTAMIENTODELEBRIJA
 77.240.234.0/24		TeaNet
