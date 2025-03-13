@@ -93,6 +93,7 @@
 110.77.128.0/19		CatBB-NET
 111.0.0.0/10		CMNet
 111.112.0.0/15		Chinanet
+111.170.0.0/16		Chinanet
 111.172.0.0/14		Chinanet
 111.192.0.0/12		Unicom
 111.224.0.0/14		Chinanet
@@ -152,6 +153,7 @@
 118.194.249.0/24	Ucloud
 118.202.0.0/15		Cernet
 118.212.0.0/16		Unicom
+118.26.36.0/22		Ucloud
 118.31.0.0/16		Alibaba
 118.68.144.0/20		FPTDynamicIP
 119.176.0.0/12		Unicom
@@ -205,6 +207,7 @@
 125.19.85.0/24		BTNL-DSL
 125.209.64.0/18		Multinet-PK
 125.240.0.0/13		LG-DACOM
+125.248.0.0/14		LG-DACOM
 125.36.0.0/14		Unicom
 125.72.0.0/16		Qinghai-Telecom
 125.74.0.0/15		Chinanet
@@ -226,6 +229,7 @@
 13.96.0.0/13		Microsoft
 130.250.133.0/24	Tatacomm
 130.250.134.0/24	Tatacomm
+130.33.0.0/16		Microsoft
 130.61.0.0/16		Oracle
 132.145.0.0/16		OC195
 134.101.128.0/17	PPPoE-Private-Customer
@@ -325,6 +329,7 @@
 154.221.29.0/24		Yisu-Cloud
 154.80.0.0/12		JAZZ-COM
 156.194.0.0/16		All25
+156.229.0.0/16		Cox
 156.236.64.0/24		Yisu-Cloud
 157.10.216.0/23		Grace-Teleinfra
 157.230.0.0/16		DigitalOcean
@@ -527,6 +532,7 @@
 188.26.192.0/21		ES-Residential
 188.32.0.0/16		PJSC-Rostelecom
 189.113.32.0/20		NetTurbo-BR
+189.252.0.0/16		Uninet-MX
 189.51.36.0/22		Goias-Telecom
 190.13.224.0/20		CoopTortu
 190.171.128.0/18	CTC-CORP
@@ -598,6 +604,7 @@
 2.57.122.0/24		DMZHost
 2.7.88.0/21			IP2000
 20.128.0.0/16		Microsoft
+20.150.0.0/15		Microsoft
 20.160.0.0/12		Microsoft
 20.184.0.0/13		Microsoft
 20.192.0.0/10		Microsoft
@@ -611,6 +618,7 @@
 200.110.128.0/20	THSOLUCIONES
 201.222.28.0/22		Netwise
 202.105.0.0/16		Chinanet
+202.120.0.0/15		Cernet
 202.28.0.0/15		Uninet
 202.53.94.0/24		Nettlinx
 202.69.32.0/20		GerrysNet
@@ -807,6 +815,7 @@
 45.135.92.0/22		IMAQLIQ
 45.139.104.0/24		Net493
 45.139.252.0/24		CyberZ
+45.141.84.0/22		Media-Land-LLC
 45.142.193.0/24		Limited-Network
 45.144.212.0/24		Kprohost
 45.144.227.0/24		CyberZ
@@ -840,6 +849,7 @@
 46.19.143.0/24		Client1096
 46.199.0.0/16		CytaNet
 46.59.28.0/24		GPNet
+47.240.0.0/14		Alibaba
 48.192.0.0/10		Microsoft
 49.112.0.0/13		Chinanet
 49.160.0.0/12		Xpeed
@@ -925,6 +935,7 @@
 64.124.184.0/22		AboveNet
 64.181.128.0/17		ORCL-SLDC1
 64.207.224.0/19		Cox
+64.225.0.0/17		DigitalOcean
 64.226.64.0/18		DigitalOcean
 64.227.0.0/17		DigitalOcean
 64.227.128.0/18		DigitalOcean
@@ -1057,6 +1068,7 @@
 88.213.0.0/17		Cyberia
 88.214.25.0/24		One-Host
 88.218.45.0/24		Fine-Group-Servers
+89.110.96.0/24		vdsina-RU
 89.168.0.0/17		Oracle
 89.175.4.0/24		AtomEkspert24
 89.248.160.0/20		IP-Volume
@@ -1068,6 +1080,7 @@
 91.121.0.0/16		OVH
 91.160.0.0/12		Scaleway
 91.196.152.0/24		Onyphe
+91.205.172.0/22		Contabo
 91.207.115.0/24		Bezzubov-RU
 91.215.85.0/24		Prospero-RU
 91.217.119.0/24		Teknosos
@@ -1082,7 +1095,9 @@
 92.255.85.0/24		Changway
 92.32.0.0/14		Telenor
 93.100.0.0/16		SkyNet-LTD
+93.126.0.0/18		Asmanfaraz-Sepahan-PJS
 93.174.88.0/21		IP-Volume
+93.183.81.0/24		TimeWeb
 93.188.82.0/23		UZTelecom
 93.99.115.0/24		BlucinaNet
 94.102.48.0/20		IP-Volume
@@ -1103,6 +1118,7 @@
 95.224.0.0/12		Alice
 95.84.128.0/19		NCN-BBCust
 98.159.32.0/20		LogicWeb
+98.16.0.0/13		Windstream
 98.160.0.0/11		Cox
 98.32.0.0/11		Comcast
 98.80.0.0/12		AWS
