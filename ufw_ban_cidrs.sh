@@ -6,12 +6,42 @@
 # ------------------------------------------------
 # Written by Matteo Salonia (matteo@salonia.it)
 
+# Assign flags
+F_HELP=0		# Print help
+F_DRY_RUN=0		# Dry run
+F_FLAGS=0		# Print flags
+F_SKIP=0		# Skip checking if the rule already exists
+F_SILENT=0		# Do not print 'skipping (already inserted)' messages
+
+
+[[ $@ =~ "-h" || $@ =~ "--help" ]] && F_HELP=1
+[[ $@ =~ "-d" || $@ =~ "--dry-run" ]] && F_DRY_RUN=1
+[[ $@ =~ "-f" || $@ =~ "--flags" ]] && F_FLAGS=1
+[[ $@ =~ "-k" || $@ =~ "--skip" ]] && F_SKIP=1
+[[ $@ =~ "-s" || $@ =~ "--silent" ]] && F_SILENT=1
+
 # Print usage and exit
-if [[ $@ =~ "-h" || $@ =~ "--help" ]]; then
-	printf "Usage: $0 [-h, --help] [-d, --dry-run] [-s, --silent]
+if [ $F_HELP = 1 ]; then
+	printf "Usage: $0 [options]
 -h,--help     Display this help message
 -d,--dry-run  Do not run ufw; only show which CIDRs would be banned
+-f,--flags    Print flags and exit
+-k,--skip     Skip checking if the rule already exists
 -s,--silent   Do not print 'Skipping (already inserted)' messages
+
+If this is a new installation/empty ruleset, -k/--skip is recommended.
+"
+	exit 0
+fi
+
+# Print flags and exit
+if [ $F_FLAGS = 1 ]; then
+	printf "Flags:
+F_HELP=$F_HELP
+F_DRY_RUN=$F_DRY_RUN
+F_FLAGS=$F_FLAGS
+F_SKIP=$F_SKIP
+F_SILENT=$F_SILENT
 "
 	exit 0
 fi
@@ -44,20 +74,22 @@ while IFS= read -r line; do
 	comment=$(echo $line | awk '{print $2}')
 
 	# Check if CIDR is already added
-	$root ufw status | grep "$cidr" >/dev/null 2>&1
-	exit_status=$?
+	if [ $F_SKIP = 0 ]; then
+		$root ufw status | grep "$cidr" >/dev/null 2>&1
+		exit_status=$?
+	fi
 
 	# If CIDR is found, skip re-adding the rule
-	if [ $exit_status -eq 0 ]; then
+	if [[ $exit_status -eq 0 && $F_SKIP = 0 ]]; then
 		# Should we echo it?
-		if ! [[ $@ =~ "-s" || $@ =~ "--silent" ]]; then
+		if [ $F_SILENT = 0 ]; then
 			echo "Skipping $cidr (already inserted)"
 		fi
 	else
 		echo "CIDR: $cidr ($comment)";
 
 		# Dry run: only show what would be added
-		if ! [[ $@ =~ "-d" || $@ =~ "--dry-run" ]]; then
+		if [ $F_DRY_RUN = 0 ]; then
 			$root ufw prepend deny from "$cidr" comment "$comment"
 		fi
 	fi
