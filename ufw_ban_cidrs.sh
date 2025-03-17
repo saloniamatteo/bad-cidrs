@@ -8,13 +8,14 @@
 
 # Assign flags
 F_HELP=0		# Print help
+F_IPV6=0		# Ban IPv6 CIDRs
 F_DRY_RUN=0		# Dry run
 F_FLAGS=0		# Print flags
 F_SKIP=0		# Skip checking if the rule already exists
 F_SILENT=0		# Do not print 'skipping (already inserted)' messages
 
-
 [[ $@ =~ "-h" || $@ =~ "--help" ]] && F_HELP=1
+[[ $@ =~ "-6" || $@ =~ "--ipv6" ]] && F_IPV6=1
 [[ $@ =~ "-d" || $@ =~ "--dry-run" ]] && F_DRY_RUN=1
 [[ $@ =~ "-f" || $@ =~ "--flags" ]] && F_FLAGS=1
 [[ $@ =~ "-k" || $@ =~ "--skip" ]] && F_SKIP=1
@@ -24,6 +25,7 @@ F_SILENT=0		# Do not print 'skipping (already inserted)' messages
 if [ $F_HELP = 1 ]; then
 	printf "Usage: $0 [options]
 -h,--help     Display this help message
+-6,--ipv6     Ban IPv6 CIDRs from CIDRs6.txt (default: IPv4)
 -d,--dry-run  Do not run ufw; only show which CIDRs would be banned
 -f,--flags    Print flags and exit
 -k,--skip     Skip checking if the rule already exists
@@ -38,6 +40,7 @@ fi
 if [ $F_FLAGS = 1 ]; then
 	printf "Flags:
 F_HELP=$F_HELP
+F_IPV6=$F_IPV6
 F_DRY_RUN=$F_DRY_RUN
 F_FLAGS=$F_FLAGS
 F_SKIP=$F_SKIP
@@ -50,7 +53,11 @@ fi
 DIRNAME=$(dirname "$0")
 
 # Where our CIDRs file is stored
-CIDRS_FILE="$DIRNAME/CIDRs.txt"
+if [ $F_IPV6 = 0 ]; then
+	CIDRS_FILE="$DIRNAME/CIDRs.txt"
+else
+	CIDRS_FILE="$DIRNAME/CIDRs6.txt"
+fi
 
 # Check if file exists
 if ! [ -e "$CIDRS_FILE" ]; then
