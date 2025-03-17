@@ -10,6 +10,12 @@ Useful files:
 - `host_rec.sh`: reads a file containing a column of IPs, and runs `host.sh` for each IP
 - `ufw_ban_cidrs.sh`: reads the data provided in CIDRs.txt (or CIDRs6.txt), and bans it using UFW
 
+Top 20 countries where bad CIDRs originate from:
+![countries](img/countries.png)
+
+Top 20 owners/companies where bad CIDRs originate from:
+![owners](img/owners.png)
+
 ## Donate
 Support this project: [salonia.it/donate](https://salonia.it/donate)
 
