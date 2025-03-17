@@ -77,23 +77,38 @@ if [ ! -z "${cidr}" ]; then
     # Print CIDR
     echo "CIDR: ${cidr}"
 
-    # Get first IP address
-    start_ip=$(sipcalc "${cidr}" | awk '/Network address/ {print $4}')
+    # Check if address is IPv4 or IPv6
+    grep "ipv4" <<<$(sipcalc "${cidr}") >/dev/null 2>&1
 
-    # Replace start IP dots (.) with escaped dots (\.)
-    # so that the regex works properly
-    start_ip=$(sed "s/\./\\\./g" <<<$start_ip)
+    if [ $? != 0 ]; then
+        is_ipv4=0
+    else
+        is_ipv4=1
+    fi
+
+    if [ $is_ipv4 = 1 ]; then
+        # Get first IP address
+        start_ip=$(sipcalc "${cidr}" | awk '/Network address/ {print $4}')
+
+        # Replace start IP dots (.) with escaped dots (\.)
+        # so that the regex works properly
+        start_ip=$(sed "s/\./\\\./g" <<<$start_ip)
+    else
+        # Get network prefix
+        start_ip=$(sipcalc "${cidr}" | awk '/Compressed address/ {print $4}')
+    fi
 
     # Find the line in the file
     query=$(grep "^${start_ip}" "${CSVFILE}")
 
     # Check query
     if [ ! -z "${query}" ]; then
-        #start_range=$(cut -d',' -f1 <<<$query)
-        #end_range=$(cut -d',' -f2 <<<$query)
-
-        # Calculate range from CIDR instead of relying on DB data
-        range=$(sipcalc ${cidr} | awk '/Network range/ {print $4 " " $5 " " $6}')
+        # Calculate range from CIDR instead of relying on DB data (IPv4 only)
+        if [ $is_ipv4 = 1 ]; then
+            range=$(sipcalc ${cidr} | awk '/Network range/ {print $4 " " $5 " " $6}')
+        else
+            range=$(cut -d',' -f1,2 <<<$query | sed "s/,/ - /")
+        fi
 
         country=$(cut -d',' -f3 <<<$query)
         country_name=$(cut -d',' -f4 <<<$query)
