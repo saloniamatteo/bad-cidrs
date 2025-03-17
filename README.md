@@ -3,11 +3,12 @@ Curated list of known bad CIDRs (scanners, crawlers, etc.)
 
 Useful files:
 - `CIDRs.txt`: file containing the bad CIDRs.
+- `CIDRs6.txt`: bad IPv6 CIDRs.
 - `endlessh.sh`: create endlessh report, including WHOIS info (using `host.sh`)
-- `get_ufw_banned.sh`: shell script to aid in creating the CIDRs.txt list; prints all of the banned hosts in UFW (`DENY IN`)
-- `host.sh`: shell script to aid in creating the CIDRs.txt list; prints WHOIS info
-- `host_rec.sh`: run this on a file contaning a column of IP addresses & run `host.sh` for each IP
-- `ufw_ban_cidrs.sh`: shell script that reads the data provided in CIDRs.txt, and bans it using UFW
+- `get_ufw_banned.sh`: aids in creating the CIDRs.txt list; prints all of the banned hosts in UFW (`DENY IN`)
+- `host.sh`: prints info of a given IP (CIDR, range, owner/company)
+- `host_rec.sh`: reads a file containing a column of IPs, and runs `host.sh` for each IP
+- `ufw_ban_cidrs.sh`: reads the data provided in CIDRs.txt (or CIDRs6.txt), and bans it using UFW
 
 ## Donate
 Support this project: [salonia.it/donate](https://salonia.it/donate)
@@ -35,15 +36,15 @@ Examples:
 1.6.53.0/24	Sify
 ```
 
-The CIDRs listed in the `CIDRs.txt` file come from various sources:
+The CIDRs listed in the `CIDRs.txt` & `CIDRs6.txt` file come from various sources:
 - SSH honeypot/tarpit (see [endlessh](https://github.com/skeeto/endlessh))
 - Fail2ban logs from vulnerability scans (postfix, nginx, ...)
 - Manual log reviewing
 
 Safe to say, if a CIDR is listed, it means somebody in that network did something that shouldn't have been done.
 
-Note: most Chinese CIDRs are listed, not because I want to arbitrarily censor countries,
-but because most scanners have a Chinese IP. Obviously, other countries are listed as well.
+Note: most Chinese & Russian CIDRs are listed, not because I want to arbitrarily censor countries,
+but because most scanners' IPs come from those countries. Obviously, other countries are listed as well.
 
 ## `host.sh` script
 This script is used to aid in creating the CIDRs.txt list.
