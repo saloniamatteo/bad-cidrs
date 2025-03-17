@@ -16,6 +16,9 @@ Top 20 countries where bad CIDRs originate from:
 Top 20 owners/companies where bad CIDRs originate from:
 ![owners](img/owners.png)
 
+You can generate the plots above using `make countries` and `make owners`, respectively.
+Requires `gnuplot` and the `country_asn.csv` file (read below).
+
 ## Donate
 Support this project: [salonia.it/donate](https://salonia.it/donate)
 
@@ -36,10 +39,10 @@ CIDR     | Comment (CIDR name)
 Examples:
 
 ```
-1.160.0.0/12	Hinet
-1.192.0.0/13	Chinanet
-1.234.0.0/14	SK-Broadband
-1.6.53.0/24	Sify
+1.160.0.0/12    Hinet
+1.192.0.0/13    Chinanet
+1.234.0.0/14    SK-Broadband
+1.6.53.0/24     Sify
 ```
 
 The CIDRs listed in the `CIDRs.txt` & `CIDRs6.txt` file come from various sources:
