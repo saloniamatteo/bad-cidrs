@@ -8,6 +8,8 @@
 101.126.0.0/16		Volcano-Engine
 101.132.0.0/15		Alibaba
 101.160.0.0/11		Telstra
+101.198.0.0/24		Chinanet
+101.199.254.0/24	Unicom
 101.2.160.0/21		CTGOnlineNet
 101.200.0.0/15		Alibaba
 101.224.0.0/13		Chinanet
@@ -74,6 +76,7 @@
 106.112.0.0/13		Chinanet
 106.12.0.0/15		Baidu
 106.14.0.0/15		Alibaba
+106.224.0.0/14		Chinanet
 106.240.0.0/12		Boranet
 106.36.0.0/14		Chinanet
 106.56.0.0/13		Chinanet
@@ -90,6 +93,7 @@
 109.205.213.0/24	Razinet
 109.236.61.0/24		Botshield-V4
 109.238.152.0/21	INET
+109.243.0.0/16		Play-PL
 109.248.160.0/22	CGI-Global
 109.68.184.0/22		TEL-NET
 110.136.0.0/19		TLKM
@@ -102,6 +106,7 @@
 111.172.0.0/14		Chinanet
 111.192.0.0/12		Unicom
 111.224.0.0/14		Chinanet
+111.230.0.0/15		Tencent
 111.67.192.0/20		Week5
 112.0.0.0/10		Chinanet
 112.109.128.0/17	Unicom
@@ -123,6 +128,7 @@
 114.144.0.0/12		OCN
 114.155.0.0/17		OCN
 114.160.0.0/11		OCN
+114.199.128.0/19	Seocho-Cable-Systems
 114.216.0.0/13		Chinanet
 114.32.0.0/12		Hinet
 114.72.0.0/14		OptusInternet
@@ -166,6 +172,7 @@
 119.23.0.0/16		Alisoft
 119.48.0.0/13		Unicom
 119.64.0.0/13		Xpeed
+119.82.248.0/21		Ezecom
 120.0.0.0/12		Unicom
 120.133.0.0/16		Vianet-CNNIC
 120.144.0.0/12		Telstra
@@ -348,11 +355,13 @@
 158.51.96.0/22		V4BLK3
 159.203.0.0/16		DigitalOcean
 159.223.0.0/16		DigitalOcean
+159.224.0.0/16		Triolan
 159.226.0.0/16		CNIC
 159.65.0.0/16		DigitalOcean
 159.89.0.0/16		DigitalOcean
 160.30.136.0/23		DataZ-VN
 161.132.0.0/16		Red-Cientifica-Peruana
+161.156.0.0/16		SoftLayer
 161.35.0.0/16		DigitalOcean
 161.97.160.0/20		Contabo
 162.120.128.0/17	GoogleVPN
@@ -405,6 +414,7 @@
 172.86.64.0/18		Ponynet
 173.16.0.0/12		Mediacom-Communications
 173.236.128.0/17	DreamHost
+173.239.211.0/24	Netutils
 173.249.0.0/18		Contabo
 173.255.192.0/19	Linode
 174.138.0.0/17		DigitalOcean
@@ -437,6 +447,7 @@
 178.19.224.0/20		Encoline
 178.20.31.0/24		Fine-Group-Servers
 178.204.0.0/14		PJSC-Tattelecom
+178.211.139.0/24	Mevspace
 178.215.224.0/24	Nybula
 178.249.209.0/24	CDNEXT-PRG
 178.250.246.0/23	Majordomo net
@@ -496,6 +507,7 @@
 185.184.200.0/23	Ibraheem-Massalha
 185.185.217.0/24	Kleissner-Investments
 185.189.182.0/24	Connect-To-Cloud
+185.194.178.0/24	Velia
 185.196.220.0/24	Hostslick
 185.196.8.0/22		SC-Global-Data
 185.198.44.0/23		Scortel1
@@ -546,6 +558,7 @@
 189.252.0.0/16		Uninet-MX
 189.51.36.0/22		Goias-Telecom
 190.13.224.0/20		CoopTortu
+190.166.0.0/15		CoDeTel
 190.171.128.0/18	CTC-CORP
 190.200.0.0/13		CanTV-VE
 192.155.80.0/20		Linode
@@ -553,6 +566,7 @@
 192.42.116.0/24		Nothing-to-hide-TOR
 192.80.96.0/20		ITV-3
 193.105.134.0/24	W1N-LTD
+193.106.174.0/23	IQHost
 193.151.128.0/21	AsiaTech
 193.163.71.0/24		JMT-Paso
 193.176.85.0/24		M247RO
@@ -562,6 +576,7 @@
 193.227.166.0/24	LBDM
 193.23.3.0/24		StarkRDP
 193.233.253.0/24	XorekCloud
+193.24.211.0/24		Layer7
 193.26.115.0/24		LEET
 193.3.173.0/24		Code200
 193.32.162.0/24		DMZHost
@@ -572,6 +587,7 @@
 193.68.89.0/24		Versija
 194.0.234.0/24		LordVPS
 194.116.0.0/18		BBBell
+194.156.100.0/22	Perviy-TSOD-LLC
 194.165.16.0/23		FlyServers
 194.169.175.0/24	NeterraIP
 194.187.176.0/22	Alpha-Strike-Labs
@@ -613,11 +629,13 @@
 198.23.128.0/17		HostPapa
 198.235.24.0/24		PAN22
 198.244.250.0/24	OVH
+199.101.196.0/24	Netutils
 199.195.248.0/21	Ponynet
 199.45.154.0/23		Censy
 2.52.0.0/14			Orange
 2.57.122.0/24		DMZHost
 2.7.88.0/21			IP2000
+20.0.0.0/11			Microsoft
 20.128.0.0/16		Microsoft
 20.150.0.0/15		Microsoft
 20.160.0.0/12		Microsoft
@@ -663,7 +681,9 @@
 209.97.128.0/18		DigitalOcean
 210.16.128.0/18		ShanghaiMeicheng
 210.176.44.0/24		Telstra
+210.206.0.0/16		LG-DACOM
 210.207.0.0/16		Vi-Asset-Management
+210.92.0.0/16		Daewoo-Securities
 211.104.0.0/14		Korea-Telecom
 211.109.0.0/16		SK-Broadband
 211.110.0.0/17		SK-Broadband
@@ -699,6 +719,7 @@
 216.144.240.0/20	Limestone
 216.218.128.0/17	HurricaneElectric
 216.225.0.0/16		Netzero
+216.73.160.0/23		Netutils
 216.74.224.0/19		Logix
 216.81.128.0/17		LightEdge
 217.145.79.0/24		CGI-Global
@@ -782,6 +803,7 @@
 39.108.0.0/16		Alisoft
 39.109.122.0/23		YISUCLOUDLTD-HK
 39.112.0.0/17		broadNNet
+39.128.0.0/10		China-Mobile-Communications
 39.96.0.0/13		Alisoft
 4.144.0.0/12		Microsoft
 4.208.0.0/12		Microsoft
@@ -804,6 +826,7 @@
 42.100.0.0/16		Chinanet
 42.123.64.0/18		Chinanet
 42.202.0.0/15		Chinanet
+42.224.0.0/12		Unicom
 42.240.128.0/17		Ucloud
 42.242.0.0/15		Chinanet
 42.51.0.0/17		HTUNet
@@ -869,7 +892,9 @@
 47.236.0.0/14		Alibaba
 47.240.0.0/14		Alibaba
 47.74.32.0/19		Alibaba
+47.76.0.0/14		Alibaba
 47.80.0.0/13		Alibaba
+47.88.0.0/14		Alibaba
 47.92.0.0/14		Alibaba
 48.192.0.0/10		Microsoft
 49.112.0.0/13		Chinanet
@@ -889,6 +914,7 @@
 50.28.0.0/17		LiquidWeb
 51.159.0.0/16		OnlineNet
 51.178.236.0/24		OVH
+51.195.0.0/16		OVH
 51.44.0.0/16		AWS
 51.77.106.0/24		OVH
 51.8.0.0/16			Microsoft
@@ -954,6 +980,7 @@
 64.124.160.0/20		AboveNet
 64.124.176.0/21		AboveNet
 64.124.184.0/22		AboveNet
+64.176.0.0/15		Constant
 64.181.128.0/17		ORCL-SLDC1
 64.207.224.0/19		Cox
 64.225.0.0/17		DigitalOcean
@@ -961,17 +988,21 @@
 64.227.0.0/17		DigitalOcean
 64.227.128.0/18		DigitalOcean
 64.23.128.0/17		DigitalOcean
+64.49.0.0/18		Frontier
+64.49.8.0/22		Atomic-Networks
 64.62.128.0/17		HurricaneElectric
 64.94.84.0/23		BNL
 65.108.0.0/15		Hetzner
 65.20.128.0/17		EarthLink
 65.20.64.0/19		Constant
+65.28.0.0/14		CharterCommunications
 65.38.112.0/20		LISIMS
 65.49.0.0/17		HurricaneElectric
 66.206.32.0/20		Turkey-Internet
 66.216.0.0/18		BroadbandONE
 66.240.192.0/18		Carinet
 66.44.192.0/19		Ellijay-Telco
+66.68.0.0/15		Charter
 67.205.0.0/18		DreamHost
 67.227.128.0/17		LiquidWeb
 67.240.0.0/12		RRNY
@@ -979,6 +1010,7 @@
 68.69.184.0/22		DediOutlet
 69.164.192.0/19		Linode
 69.87.192.0/20		Esited
+71.224.0.0/12		Comcast
 71.6.128.0/17		Carinet
 71.80.0.0/12		CharterCommunications
 72.176.0.0/12		RRSW
@@ -1041,6 +1073,7 @@
 82.209.142.0/23		Bredband2
 82.23.177.0/24		RIPE-Private-Customer
 82.64.0.0/14		PROXAD
+83.0.0.0/11			Orange-PL
 83.147.255.0/24		AezaNet
 83.168.69.0/24		SkillHost
 83.222.190.0/23		Net4Media
