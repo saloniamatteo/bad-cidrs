@@ -10,6 +10,10 @@ Useful files:
 - `host_rec.sh`: reads a file containing a column of IPs, and runs `host.sh` for each IP
 - `ufw_ban_cidrs.sh`: reads the data provided in CIDRs.txt (or CIDRs6.txt), and bans it using UFW
 
+## Donate
+Support this project: [salonia.it/donate](https://salonia.it/donate)
+
+## Stats
 Top 20 countries where bad CIDRs originate from:
 ![countries](img/countries.png)
 
@@ -18,9 +22,6 @@ Top 20 owners/companies where bad CIDRs originate from:
 
 You can generate the plots above using `make countries` and `make owners`, respectively.
 Requires `gnuplot` and the `country_asn.csv` file (read below).
-
-## Donate
-Support this project: [salonia.it/donate](https://salonia.it/donate)
 
 ## Motivation
 As the days pass, my server gets lots of mail & web spam, as well as numerous vulnerability checks.
