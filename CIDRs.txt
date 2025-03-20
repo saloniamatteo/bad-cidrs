@@ -194,6 +194,7 @@
 121.40.0.0/14		Alisoft
 121.46.224.0/23		Zhaoone
 122.115.32.0/19		Qishangonline
+122.116.0.0/15		Hinet
 122.144.0.0/16		ZZGiant
 122.154.0.0/15		CAT
 122.156.0.0/14		Unicom
@@ -447,6 +448,7 @@
 178.19.224.0/20		Encoline
 178.20.31.0/24		Fine-Group-Servers
 178.204.0.0/14		PJSC-Tattelecom
+178.21.160.0/21		PISHTAZE-JADID-INFORMATION-COMPANY
 178.211.139.0/24	Mevspace
 178.215.224.0/24	Nybula
 178.249.209.0/24	CDNEXT-PRG
@@ -469,6 +471,7 @@
 180.95.128.0/17		Unicom
 180.96.0.0/11		Chinanet
 181.212.0.0/16		Unknown
+181.214.206.0/24	GTT
 181.48.0.0/13		Unknown
 182.144.0.0/13		Chinanet
 182.176.0.0/12		PTCLBB-PK
@@ -508,6 +511,7 @@
 185.185.217.0/24	Kleissner-Investments
 185.189.182.0/24	Connect-To-Cloud
 185.194.178.0/24	Velia
+185.195.202.0/23	M247
 185.196.220.0/24	Hostslick
 185.196.8.0/22		SC-Global-Data
 185.198.44.0/23		Scortel1
@@ -527,9 +531,11 @@
 185.242.226.0/24	AISPERA
 185.246.128.0/24	W1N-LTD
 185.246.130.0/24	W1N-LTD
+185.246.211.0/24	CDN77
 185.247.137.0/24	DriftNet
 185.3.232.0/22		Providerbox
 185.39.207.0/24		GlobConnex
+185.40.4.0/24		Verasel
 185.42.12.0/24		HorizonMSK
 185.55.64.0/23		Spidernet
 185.6.52.0/22		VTelecom
@@ -561,6 +567,7 @@
 190.166.0.0/15		CoDeTel
 190.171.128.0/18	CTC-CORP
 190.200.0.0/13		CanTV-VE
+191.101.157.0/24	Cogent
 192.155.80.0/20		Linode
 192.241.128.0/17	DigitalOcean
 192.42.116.0/24		Nothing-to-hide-TOR
@@ -606,6 +613,7 @@
 195.178.110.0/24	TechoffSrv
 195.184.76.0/24		ONYPHE-SAS
 195.191.218.0/23	VeloxServ
+195.20.18.0/24		AvaHost
 195.201.0.0/16		Hetzner
 195.211.188.0/22	PitlineNet
 195.3.144.0/22		RN-Data
@@ -670,6 +678,7 @@
 204.188.192.0/18	Sharktech
 204.216.0.0/16		Navisite-Opco
 204.76.203.0/24		PFcloud
+205.168.0.0/14		CenturyLink
 205.210.31.0/24		PAN22
 206.168.32.0/22		Censys
 206.189.0.0/16		DigitalOcean
@@ -745,6 +754,8 @@
 27.98.224.0/19		Unicom
 3.136.0.0/13		AWS
 3.144.0.0/13		AWS
+3.224.0.0/12		AWS
+3.80.0.0/12			AWS
 31.120.0.0/16		BTNET
 31.135.16.0/20		Swidman
 31.180.0.0/15		PJSC-Rostelecom
@@ -760,6 +771,7 @@
 32.208.0.0/12		Frontier-Communications
 34.128.0.0/10		GCP
 34.16.0.0/12		GCP
+34.192.0.0/10		AWS
 34.32.0.0/11		GCP
 34.4.128.0/17		GCP
 34.4.16.0/20		GCP
@@ -854,6 +866,7 @@
 45.135.92.0/22		IMAQLIQ
 45.139.104.0/24		Net493
 45.139.252.0/24		CyberZ
+45.140.42.0/23		Clouvider
 45.141.84.0/22		Media-Land-LLC
 45.142.193.0/24		Limited-Network
 45.144.212.0/24		Kprohost
@@ -907,7 +920,9 @@
 5.180.252.0/23		RUB08
 5.181.188.0/22		PL-MEV
 5.182.209.0/24		SpectraIP
+5.189.144.0/20		Contabo
 5.196.0.0/16		OVH
+5.32.176.0/23		Telesmart-Telekom
 5.45.100.0/22		NETCUP
 5.75.176.0/20		Cloud-NBG1
 50.2.0.0/15			EONIX
@@ -1046,6 +1061,7 @@
 79.137.7.0/24		OVH
 79.142.76.0/23		AltusHost
 79.143.188.0/22		Contabo
+79.164.0.0/15		CNT-RU
 79.175.128.0/18		Afranet
 79.44.128.0/17		TelecomADSL
 79.46.0.0/17		TelecomADSL
@@ -1062,6 +1078,7 @@
 80.82.68.0/23		IP-Volume
 80.82.70.0/24		IP-Volume
 80.82.76.0/22		IP-Volume
+80.85.240.0/20		3data-RU
 80.94.95.0/24		Unmanaged-LTD
 81.161.238.0/24		Nybula-LLC
 81.17.0.0/19		PrivateLayer
@@ -1166,6 +1183,7 @@
 94.156.46.0/24		Daticum
 94.159.104.0/21		H2Nexus
 94.174.0.0/15		Virgin-Media
+94.182.0.0/15		Aria-Shatel
 94.201.32.0/19		Emirates-Integrated-Telecom
 95.0.0.0/12			TurkTelecom
 95.111.240.0/20		Contabo
@@ -1173,6 +1191,7 @@
 95.181.238.0/24		M247
 95.182.115.0/24		CGI-Global
 95.192.0.0/12		Telia
+95.211.0.0/16		LeaseWeb
 95.211.228.0/22		Leaseweb
 95.214.52.0/22		PL-MEV
 95.224.0.0/12		Alice
