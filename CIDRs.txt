@@ -215,6 +215,7 @@
 124.220.0.0/14		Tencent
 124.236.0.0/14		Chinanet
 124.48.0.0/12		Xpeed
+124.66.0.0/17		Unicom
 125.124.0.0/16		Chinanet
 125.128.0.0/11		Korea-Telecom
 125.176.0.0/12		Xpeed
@@ -229,6 +230,7 @@
 128.185.0.0/17		Bharti
 128.199.0.0/16		DigitalOcean
 128.203.0.0/16		Microsoft
+128.24.0.0/16		Microsoft
 129.144.0.0/12		OPC1
 129.213.0.0/16		Oracle
 13.104.0.0/14		Microsoft
@@ -426,6 +428,7 @@
 175.112.0.0/12		BroadNnet
 175.152.0.0/14		Unicom
 175.156.0.0/17		M1Net
+175.208.0.0/13		Korea-Telecom
 175.29.208.0/20		Synertech
 175.30.0.0/18		CC-YIQITONGXIN
 176.108.136.0/21	MonkeyBrains
@@ -528,6 +531,7 @@
 185.224.3.0/24		Pipehost
 185.226.197.0/24	ICG4
 185.231.49.0/24		Internet Projects
+185.242.160.0/22	HizHosting
 185.242.226.0/24	AISPERA
 185.246.128.0/24	W1N-LTD
 185.246.130.0/24	W1N-LTD
@@ -582,6 +586,7 @@
 193.218.118.0/24	URDN
 193.227.166.0/24	LBDM
 193.23.3.0/24		StarkRDP
+193.233.202.0/23	AlexHost
 193.233.253.0/24	XorekCloud
 193.24.211.0/24		Layer7
 193.26.115.0/24		LEET
@@ -800,6 +805,7 @@
 36.212.0.0/14		CMNet
 36.26.64.0/19		Chinanet
 36.40.0.0/13		Chinanet
+36.56.0.0/14		Chinanet
 36.64.0.0/11		Telkomnet
 36.96.0.0/11		Chinanet
 37.10.112.0/22		HydraCom
@@ -808,6 +814,7 @@
 37.27.208.0/23		Hetzner
 37.44.236.0/22		Relcom-Group
 37.46.17.0/24		UK-Netshield
+37.46.19.0/24		Cloud-Hosting-Solutions
 37.48.64.0/18		Leaseweb
 37.99.224.0/20		INCNet
 38.0.0.0/8 			Cogent
@@ -876,6 +883,7 @@
 45.149.241.0/24		Nybula
 45.156.128.0/24		INAP-AMS
 45.156.129.0/24		INAP-CHI-1
+45.156.130.0/24		Internet-Census
 45.156.131.0/24		ICG2
 45.158.8.0/24		Unknown
 45.164.176.0/22		ISP-Facil
@@ -902,6 +910,9 @@
 46.19.143.0/24		Client1096
 46.199.0.0/16		CytaNet
 46.59.28.0/24		GPNet
+47.104.0.0/13		Alibaba
+47.112.0.0/12		Alibaba
+47.144.0.0/12		Frontier
 47.236.0.0/14		Alibaba
 47.240.0.0/14		Alibaba
 47.74.32.0/19		Alibaba
@@ -909,6 +920,7 @@
 47.80.0.0/13		Alibaba
 47.88.0.0/14		Alibaba
 47.92.0.0/14		Alibaba
+47.96.0.0/14		Alibaba
 48.192.0.0/10		Microsoft
 49.112.0.0/13		Chinanet
 49.160.0.0/12		Xpeed
@@ -1131,6 +1143,7 @@
 87.120.165.0/24		Play2GO-Customers
 87.121.84.0/24		VPSVault
 87.121.86.0/24		Nybula
+87.128.0.0/10		Deutsche-Telekom
 87.236.176.0/24		DriftNet
 87.242.69.0/24		Masterhost
 87.64.64.0/20		Proximus
@@ -1171,6 +1184,7 @@
 92.32.0.0/14		Telenor
 93.100.0.0/16		SkyNet-LTD
 93.126.0.0/18		Asmanfaraz-Sepahan-PJS
+93.157.106.0/24		AlexHost
 93.174.88.0/21		IP-Volume
 93.183.81.0/24		TimeWeb
 93.188.82.0/23		UZTelecom
