@@ -8,7 +8,7 @@ owners: plot-owners
 
 plot-owners: cidrs-oneline.txt
 	@sort plot/cidrs-oneline.txt | uniq -c | sort -nr | head -n ${PLOT_OWNERS_COUNT} > plot/owners.txt
-	@GNUPLOT_LIB="plot" gnuplot plot/owners.gp
+	@GNUPLOT_LIB="plot" gnuplot plot/owners.gnu
 	@echo "owners.png"
 
 cidrs-oneline.txt:
@@ -19,17 +19,30 @@ countries: plot-countries
 
 plot-countries: countries-list.txt
 	@sort plot/countries-list.txt | uniq -c | sort -nr | head -n ${PLOT_COUNTRIES_COUNT} > plot/countries.txt
-	@GNUPLOT_LIB="plot" gnuplot plot/countries.gp
+	@GNUPLOT_LIB="plot" gnuplot plot/countries.gnu
 	@echo "countries.png"
 
 countries-list.txt:
 	plot/fetch_countries.sh
 
+# Create plot: world map
+map: plot-map
+
+plot-map: points.txt
+	@GNUPLOT_LIB="plot" gnuplot plot/world_map.gnu
+	@echo "world_map.png"
+
+points.txt:
+	plot/fetch_ip_locations.sh
+
 # Clean stuff
-clean: clean-plot
+clean:
 	rm -f *.png
+	rm -f plot/cidrs-oneline.txt
+	rm -f plot/countries-list.txt
+	rm -f plot/countries.txt
+	rm -f plot/country.txt
+	rm -f plot/owners.txt
+	rm -f plot/points.txt
 
-clean-plot:
-	rm -f plot/cidrs-oneline.txt plot/countries.txt plot/countries-list.txt plot/country.txt plot/owners.txt
-
-.PHONY: companies countries plot-owners plot-countries clean
+.PHONY: companies plot-owners countries plot-countries map plot-map clean

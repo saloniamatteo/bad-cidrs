@@ -14,14 +14,29 @@ Useful files:
 Support this project: [salonia.it/donate](https://salonia.it/donate)
 
 ## Stats
+Map showing where all currently inserted bad CIDRs originate from:
+![world_map](img/world_map.png)
+
 Top 20 countries where bad CIDRs originate from:
 ![countries](img/countries.png)
 
 Top 20 owners/companies where bad CIDRs originate from:
 ![owners](img/owners.png)
 
-You can generate the plots above using `make countries` and `make owners`, respectively.
-Requires `gnuplot` and the `country_asn.csv` file (read below).
+You can generate the plots above using the following commands:
+- World map: `make map`
+- Top 20 countries: `make countries`
+- Top 20 owners/companies: `make owners`
+
+Requirements:
+- `awk`
+- `curl`
+- `gnuplot`
+- `grep`
+- `jq`
+- `sed`
+- `sipcalc`
+- `country_asn.csv` file (read below)
 
 ## Motivation
 As the days pass, my server gets lots of mail & web spam, as well as numerous vulnerability checks.
