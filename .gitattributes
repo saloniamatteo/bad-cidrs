@@ -1,0 +1,1 @@
+plot/natural-earth-2560x1440px.txt filter=lfs diff=lfs merge=lfs -text
