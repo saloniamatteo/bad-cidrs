@@ -34,6 +34,7 @@
 102.48.0.0/13		Maroc-Telecom
 103.102.230.0/24	Skoali-SAS
 103.108.94.0/24		Intergrid
+103.120.116.0/22	Fiberish-PK
 103.129.238.0/24	Mazeda-Networks
 103.130.198.0/23	Abhinawa
 103.133.214.0/23	eWebGuru
@@ -48,6 +49,7 @@
 103.190.91.0/24		Wifiwala
 103.191.74.0/23		Progenet
 103.195.188.0/22	Dromatics-Systems
+103.197.184.0/23	VNPT
 103.20.102.0/23		TAK
 103.203.56.0/22		IPIP
 103.203.72.0/22		Railtel
@@ -63,6 +65,7 @@
 103.36.84.0/22		TISS
 103.42.29.0/24		HK-United
 103.54.16.0/22		Slash22
+103.70.114.0/23		TotHost-VN
 103.76.84.0/22		Slash22
 103.81.84.0/22		HostingViet
 103.82.240.0/22		EXBCOID
@@ -151,7 +154,7 @@
 115.48.0.0/12		Unicom
 115.72.0.0/13		Viettel
 116.112.0.0/14		CNC-China
-116.120.0.0/17		BroadNnet
+116.120.0.0/13		SK-Broadband
 116.128.0.0/10		Unicom
 116.196.64.0/18		Chinanet
 116.32.0.0/12		LG-Powercomm
@@ -175,6 +178,7 @@
 118.212.0.0/16		Unicom
 118.26.36.0/22		Ucloud
 118.31.0.0/16		Alibaba
+118.32.0.0/12		Korea-Telecom
 118.68.144.0/20		FPTDynamicIP
 119.0.0.0/15		Chinanet
 119.176.0.0/12		Unicom
@@ -220,6 +224,7 @@
 123.178.0.0/15		Chinanet
 123.208.0.0/14		Telstra
 123.244.0.0/14		Chinanet
+123.52.0.0/14		Chinanet
 123.56.0.0/15		Alibaba
 123.58.192.0/19		Ucloud
 123.8.0.0/13		Unicom
@@ -233,6 +238,7 @@
 125.176.0.0/12		Xpeed
 125.19.85.0/24		BTNL-DSL
 125.209.64.0/18		Multinet-PK
+125.224.0.0/13		Hinet
 125.240.0.0/13		LG-DACOM
 125.248.0.0/14		LG-DACOM
 125.36.0.0/14		Unicom
@@ -335,6 +341,7 @@
 148.72.164.0/22		VIG97
 148.72.168.0/21		VIG97
 148.72.176.0/23		VIG97
+149.100.64.0/22		DataGeeks
 149.202.0.0/16		OVH
 149.88.0.0/16		Cogent
 15.179.0.0/16		AWS
@@ -428,6 +435,7 @@
 170.239.176.0/22	Unknown
 170.39.216.0/22		FBW-Reseaux-Fibers
 170.64.128.0/17		DigitalOcean
+170.84.140.0/22		TudoAll-Telecom-BR
 171.0.0.0/8			APNIC
 172.103.128.0/17	Cipherkey
 172.104.0.0/15		Linode
@@ -561,6 +569,7 @@
 185.231.49.0/24		Internet Projects
 185.242.160.0/22	HizHosting
 185.242.226.0/24	AISPERA
+185.243.96.0/24		NTUP
 185.246.128.0/24	W1N-LTD
 185.246.130.0/24	W1N-LTD
 185.246.211.0/24	CDN77
@@ -632,6 +641,7 @@
 193.68.89.0/24		Versija
 194.0.234.0/24		LordVPS
 194.110.114.0/24	M247
+194.110.247.0/24	AlexHost
 194.116.0.0/18		BBBell
 194.156.100.0/22	Perviy-TSOD-LLC
 194.165.16.0/23		FlyServers
@@ -780,6 +790,7 @@
 216.73.160.0/23		Netutils
 216.74.224.0/19		Logix
 216.81.128.0/17		LightEdge
+217.0.0.0/13		Deutsche-Telekom
 217.113.192.0/20	SCT-Partner
 217.145.79.0/24		CGI-Global
 217.160.227.0/24	IONOS
@@ -804,6 +815,7 @@
 27.148.0.0/14		Chinanet
 27.16.0.0/12		Chinanet
 27.98.224.0/19		Unicom
+3.128.0.0/15		AWS
 3.136.0.0/13		AWS
 3.144.0.0/13		AWS
 3.16.0.0/14			AWS
@@ -1056,6 +1068,7 @@
 59.32.0.0/13		Chinanet
 59.40.0.0/15		Chinanet
 59.42.0.0/16		Chinanet
+59.52.0.0/14		Chinanet
 60.16.0.0/13		Unicom
 60.191.110.0/24		Suige
 60.204.0.0/16		HWCSNet
@@ -1066,6 +1079,7 @@
 61.169.0.0/16		Chinanet
 61.170.0.0/15		Chinanet
 61.189.128.0/17		Chinanet
+61.220.0.0/14		Hinet
 61.240.0.0/14		Unicom
 61.32.0.0/13		Boranet
 61.80.0.0/14		Korea-Telecom
