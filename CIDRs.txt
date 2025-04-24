@@ -331,6 +331,7 @@
 14.4.0.0/14			PubnetPlus
 14.64.0.0/11		Korea-Telecom
 140.106.0.0/19		Cogeco
+140.245.0.0/16		Oracle
 140.246.0.0/16		Chinanet
 140.249.0.0/16		Chinanet
 141.11.166.0/24		RIPE-Private-Customer
@@ -374,6 +375,7 @@
 15.180.0.0/14		AWS
 15.184.0.0/14		AWS
 15.188.0.0/16		AWS
+15.206.0.0/15		AWS
 15.235.0.0/16		OVH
 15.236.0.0/14		AWS
 150.0.0.0/8			Chinanet
@@ -537,6 +539,7 @@
 18.189.0.0/16		AWS
 18.191.0.0/16		AWS
 18.191.0.0/16		GTT
+18.204.0.0/14		AWS
 18.216.0.0/14		AWS
 18.220.0.0/14		AWS
 18.224.0.0/14		AWS
@@ -793,6 +796,7 @@
 203.57.254.0/23		Chinanet
 203.6.224.0/20		Chinanet
 204.10.192.0/22		AccurisHosting
+204.137.14.0/24		Atomic-Networks
 204.188.192.0/18	Sharktech
 204.216.0.0/16		Navisite-Opco
 204.76.203.0/24		PFcloud
@@ -892,6 +896,7 @@
 3.136.0.0/13		AWS
 3.144.0.0/13		AWS
 3.16.0.0/14			AWS
+3.20.0.0/14			AWS
 3.224.0.0/12		AWS
 3.248.0.0/13		AWS
 3.80.0.0/12			AWS
@@ -1107,6 +1112,7 @@
 50.128.0.0/9		Comcast
 50.2.0.0/15			EONIX
 50.28.0.0/17		LiquidWeb
+50.72.0.0/16		Shaw-Communications
 51.158.0.0/15		Scaleway
 51.159.0.0/16		OnlineNet
 51.178.236.0/24		OVH
@@ -1202,6 +1208,7 @@
 64.49.8.0/22		Atomic-Networks
 64.62.128.0/17		HurricaneElectric
 64.94.84.0/23		BNL
+65.0.0.0/14			AWS
 65.108.0.0/15		Hetzner
 65.20.128.0/17		EarthLink
 65.20.64.0/19		Constant
@@ -1278,6 +1285,7 @@
 80.251.208.0/20		Unspecified
 80.64.30.0/24		HorizonMSK
 80.66.76.0/24		XhostisNET
+80.75.212.0/24		TubeHosting
 80.82.64.0/22		IP-Volume
 80.82.68.0/23		IP-Volume
 80.82.70.0/24		IP-Volume
@@ -1391,6 +1399,7 @@
 93.126.0.0/18		Asmanfaraz-Sepahan-PJS
 93.157.106.0/24		AlexHost
 93.174.88.0/21		IP-Volume
+93.176.128.0/18		Xtra-Telecom
 93.183.81.0/24		TimeWeb
 93.188.82.0/23		UZTelecom
 93.99.115.0/24		BlucinaNet
