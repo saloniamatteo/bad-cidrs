@@ -199,6 +199,7 @@
 119.64.0.0/13		Xpeed
 119.8.0.0/16		HuaweiCloud
 119.82.248.0/21		Ezecom
+12.0.0.0/8			AT&T
 120.0.0.0/12		Unicom
 120.133.0.0/16		Vianet-CNNIC
 120.144.0.0/12		Telstra
@@ -304,6 +305,7 @@
 135.236.0.0/15		Microsoft
 136.227.160.0/19	Constant
 136.24.0.0/13		WebPA
+136.243.0.0/16		Hetzner
 137.184.0.0/16		DigitalOcean
 137.220.128.0/17	CTG-Server
 137.74.0.0/16		OVH
@@ -313,6 +315,7 @@
 138.124.19.0/24		Hip-Hosting-PL
 138.197.0.0/16		DigitalOcean
 138.2.0.0/16		Oracle-BETH
+138.246.0.0/16		Technische-Universitaet-Muenchen
 138.68.0.0/16		DigitalOcean
 139.162.192.0/18	Akamai
 139.19.0.0/16		MPIINet
@@ -349,6 +352,7 @@
 143.244.128.0/17	DigitalOcean
 143.244.48.0/22		Datacamp
 144.126.128.0/19	Contabo
+144.126.192.0/18	DigitalOcean
 144.91.110.0/23		Contabo
 146.19.24.0/24		PL-MEV
 146.190.0.0/16		DigitalOcean
@@ -581,6 +585,7 @@
 185.100.234.0/24	Worldstream
 185.100.87.0/24		FlokiNet
 185.12.56.0/22		Blix
+185.128.227.0/24	Advin-Services
 185.132.53.0/24		XOR
 185.138.166.0/24	Kriek
 185.142.236.0/24	BlackHost
@@ -597,6 +602,7 @@
 185.184.200.0/23	Ibraheem-Massalha
 185.185.217.0/24	Kleissner-Investments
 185.189.182.0/24	Connect-To-Cloud
+185.191.124.0/22	KoDDoS
 185.193.156.0/22	Clouvider
 185.194.178.0/24	Velia
 185.195.202.0/23	M247
@@ -611,6 +617,7 @@
 185.213.172.0/22	NextGenWebs
 185.213.20.0/24		StarkRDP
 185.217.1.0/24		ICME-Customers
+185.218.86.0/24		Netiface
 185.222.4.0/22		Intertell-PL
 185.224.0.0/24		PFcloud
 185.224.129.0/24	SpectraIP-customers
@@ -624,6 +631,7 @@
 185.246.130.0/24	W1N-LTD
 185.246.211.0/24	CDN77
 185.247.137.0/24	DriftNet
+185.255.122.0/24	BeeHosted
 185.3.232.0/22		Providerbox
 185.39.17.0/24		Optima
 185.39.207.0/24		GlobConnex
@@ -902,6 +910,7 @@
 3.80.0.0/12			AWS
 31.120.0.0/16		BTNET
 31.135.16.0/20		Swidman
+31.141.128.0/17		Turkcell
 31.170.16.0/21		RST-LV
 31.180.0.0/15		PJSC-Rostelecom
 31.184.196.0/22		Petersburg-Internet-Network
@@ -978,6 +987,7 @@
 40.126.128.0/17		Microsoft
 40.160.0.0/17		OVH
 40.162.0.0/16		Bluecloud
+40.67.0.0/16		Microsoft
 40.74.0.0/15		Microsoft
 40.76.0.0/14		Microsoft
 40.80.0.0/12		Microsoft
@@ -1055,14 +1065,15 @@
 45.66.129.0/24		Virmach
 45.66.244.0/22		Bamboozle2
 45.79.0.0/16		Linode
+45.80.156.0/22		Macarne
 45.82.78.0/24		Owl-LTD
 45.82.79.0/24		Owl-LTD
 45.83.2.0/23		CoolNet-UKR
 45.83.64.0/22		Internet-Research
+45.84.107.0/24		QuxLabs
 45.86.208.0/22		Clouvider
 45.88.138.0/24		DexDC
 45.90.160.0/22		Sapinet
-45.94.31.0/24		LEET
 45.94.31.0/24		Tencent
 46.101.0.0/16		DigitalOcean
 46.105.0.0/16		OVH
@@ -1078,6 +1089,7 @@
 47.100.0.0/14		Aliyun
 47.104.0.0/13		Alibaba
 47.112.0.0/12		Alibaba
+47.128.0.0/13		AWS
 47.144.0.0/12		Frontier
 47.16.0.0/14		Cablevision
 47.236.0.0/14		Alibaba
@@ -1101,6 +1113,7 @@
 5.180.252.0/23		RUB08
 5.181.188.0/22		PL-MEV
 5.182.209.0/24		SpectraIP
+5.183.209.0/24		KoDDoS
 5.189.144.0/20		Contabo
 5.196.0.0/16		OVH
 5.252.155.0/24		Partner-Hosting-LTD
@@ -1254,6 +1267,7 @@
 77.140.0.0/14		SFR
 77.221.136.0/22		AezaNet
 77.226.208.0/24		EXCMOAYUNTAMIENTODELEBRIJA
+77.238.230.0/24		Servers-Tech-FZCO
 77.240.234.0/24		TeaNet
 77.7.0.0/17			TEDE-LLU
 77.75.72.0/21		Seznam
@@ -1306,6 +1320,7 @@
 82.64.0.0/14		PROXAD
 83.0.0.0/11			Orange-PL
 83.147.255.0/24		AezaNet
+83.150.218.0/24		YorkHost
 83.168.69.0/24		SkillHost
 83.222.190.0/23		Net4Media
 83.226.0.0/15		Telenor
@@ -1334,8 +1349,11 @@
 85.224.0.0/13		Telenor
 85.237.57.0/24		JSC-Volgatelecom
 85.24.128.0/17		Bahnhof
+85.240.0.0/13		Meo-PT
 85.31.47.0/24		NybulaNet
 85.85.0.0/16		EuskalTel
+85.9.64.0/18		Pishgaman
+85.90.244.0/22		Linode
 85.96.0.0/12		Turk-Telecom
 86.2.0.0/20			VMCBBUK
 86.58.0.0/17		Telemach-SI
@@ -1385,6 +1403,7 @@
 91.223.75.0/24		PAKT
 91.224.92.0/24		UAB-Host-Baltic
 91.238.181.0/24		OnehostNet
+91.238.254.0/24		Granet-Marcin-Grabowski
 91.239.8.0/22		Adinet
 91.32.0.0/11		DTAG
 92.118.39.0/24		DMZHost
@@ -1396,6 +1415,7 @@
 92.255.85.0/24		Changway
 92.32.0.0/14		Telenor
 93.100.0.0/16		SkyNet-LTD
+93.123.109.0/24		Nybula
 93.126.0.0/18		Asmanfaraz-Sepahan-PJS
 93.157.106.0/24		AlexHost
 93.174.88.0/21		IP-Volume
@@ -1415,6 +1435,7 @@
 94.182.0.0/15		Aria-Shatel
 94.201.32.0/19		Emirates-Integrated-Telecom
 94.23.0.0/16		OVH
+94.247.168.0/21		GleSYS
 94.75.64.0/18		LibertyGlobal
 95.0.0.0/12			TurkTelecom
 95.111.240.0/20		Contabo
