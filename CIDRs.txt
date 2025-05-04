@@ -632,6 +632,7 @@
 185.213.172.0/22	NextGenWebs
 185.213.20.0/24		StarkRDP
 185.217.1.0/24		ICME-Customers
+185.218.84.0/24		Netiface
 185.218.86.0/24		Netiface
 185.222.4.0/22		Intertell-PL
 185.224.0.0/24		PFcloud
@@ -931,6 +932,7 @@
 3.20.0.0/14			AWS
 3.224.0.0/12		AWS
 3.248.0.0/13		AWS
+3.64.0.0/12			AWS
 3.80.0.0/12			AWS
 31.120.0.0/16		BTNET
 31.135.16.0/20		Swidman
@@ -1083,6 +1085,7 @@
 45.227.254.0/24		XWIN
 45.230.64.0/22		MegaLink
 45.236.48.0/22		Rede-Brasil-Networks
+45.32.0.0/16		Constant
 45.33.0.0/17		Linode
 45.38.0.0/15		EGI-Hosting
 45.43.32.0/19		Zenlayer
@@ -1145,6 +1148,7 @@
 5.189.144.0/20		Contabo
 5.196.0.0/16		OVH
 5.252.155.0/24		Partner-Hosting-LTD
+5.255.192.0/18		Yandex
 5.32.176.0/23		Telesmart-Telekom
 5.38.128.0/17		Magyar-Telekom
 5.42.211.0/24		Castles-LLC
