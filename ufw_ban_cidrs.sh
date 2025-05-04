@@ -52,16 +52,24 @@ fi
 # Get this directory's path
 DIRNAME=$(dirname "$0")
 
-# Where our CIDRs file is stored
+# CIDRS_FILE: Where our CIDRs file is stored
+# UFW_RULES_FILE: Where ufw rules are stored
 if [ $F_IPV6 = 0 ]; then
 	CIDRS_FILE="$DIRNAME/CIDRs.txt"
+	UFW_RULES_FILE="/etc/ufw/user.rules"
 else
 	CIDRS_FILE="$DIRNAME/CIDRs6.txt"
+	UFW_RULES_FILE="/etc/ufw/user6.rules"
 fi
 
-# Check if file exists
+# Check if files exist
 if ! [ -e "$CIDRS_FILE" ]; then
-	echo "Cannot find file $CIDRS_FILE!"
+	echo "Cannot find CIDRs file ($CIDRS_FILE)!"
+	exit 1
+fi
+
+if ! [ -e "$UFW_RULES_FILE" ]; then
+	echo "Cannot find ufw rules file ($UFW_RULES_FILE)!"
 	exit 1
 fi
 
@@ -82,7 +90,15 @@ while IFS= read -r line; do
 
 	# Check if CIDR is already added
 	if [ $F_SKIP = 0 ]; then
-		$root ufw status | grep "$cidr" >/dev/null 2>&1
+		# Instead of checking via ufw, check directly /etc/ufw/user.rules
+		# Times:
+		# - via "ufw status": 0.077s
+		# - via "grep $UFW_RULES_FILE": 0.001s
+		#
+		# Keeping this line just in case. Shouldn't be needed.
+		#$root ufw status | grep "$cidr" >/dev/null 2>&1
+
+		grep "$cidr" $UFW_RULES_FILE >/dev/null 2>&1
 		exit_status=$?
 	fi
 
