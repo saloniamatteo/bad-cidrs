@@ -7,6 +7,7 @@
 1.40.0.0/14			Optus-Internet
 1.6.53.0/24			Sify
 1.80.0.0/13			Chinanet
+100.20.0.0/14		AWS
 100.40.128.0/17		Verizon
 101.126.0.0/16		Volcano-Engine
 101.132.0.0/15		Alibaba
@@ -46,6 +47,7 @@
 103.146.158.0/24	HK-KXSY
 103.147.184.0/23	VNPT
 103.149.27.0/24		Ucloud-HK
+103.156.92.0/23		VNPT
 103.160.212.0/23	PT-Dewa-Bisnis
 103.164.8.0/23		KEL-PK
 103.167.90.0/23		VietServer
@@ -107,6 +109,7 @@
 107.189.0.0/19		Ponynet
 107.191.32.0/20		Constant
 107.20.0.0/14		AWS
+109.108.96.0/19		Nordic-Telecom
 109.121.162.0/24	Novonet
 109.172.4.0/22		JSCIOT
 109.202.99.0/24		GlobalLayer
@@ -393,6 +396,7 @@
 148.72.164.0/22		VIG97
 148.72.168.0/21		VIG97
 148.72.176.0/23		VIG97
+149.100.10.0/23		Cogent
 149.100.64.0/22		DataGeeks
 149.202.0.0/16		OVH
 149.88.0.0/16		Cogent
@@ -437,6 +441,7 @@
 157.245.0.0/16		DigitalOcean
 157.255.0.0/16		Unicom
 157.66.34.0/23		Beon-Intermedia
+157.90.0.0/16		Hetzner
 158.172.0.0/14		Oracle
 158.176.0.0/14		Oracle
 158.180.0.0/16		Oracle
@@ -740,6 +745,7 @@
 193.32.162.0/24		DMZHost
 193.34.212.0/22		PL-MEV
 193.41.206.0/24		Alexandrion
+193.46.255.0/24		Unmanaged-LTD
 193.56.113.0/24		CyberZ
 193.68.64.0/19		Versija
 193.68.89.0/24		Versija
@@ -820,6 +826,7 @@
 20.64.0.0/10		Microsoft
 200.105.128.0/19	Acelerate
 200.110.128.0/20	THSOLUCIONES
+200.6.48.0/24		Vocalnet
 201.222.28.0/22		Netwise
 202.104.0.0/15		Chinanet
 202.105.0.0/16		Chinanet
@@ -916,6 +923,7 @@
 216.244.64.0/19		Unitas-Global
 216.48.176.0/20		E2E-Networks
 216.73.160.0/23		Netutils
+216.73.216.0/22		Anthropic
 216.74.224.0/19		Logix
 216.81.128.0/17		LightEdge
 217.0.0.0/13		Deutsche-Telekom
@@ -952,6 +960,7 @@
 27.98.224.0/19		Unicom
 3.128.0.0/15		AWS
 3.136.0.0/13		AWS
+3.14.0.0/15			AWS
 3.144.0.0/13		AWS
 3.16.0.0/14			AWS
 3.20.0.0/14			AWS
@@ -1249,6 +1258,7 @@
 59.40.0.0/15		Chinanet
 59.42.0.0/16		Chinanet
 59.52.0.0/14		Chinanet
+59.88.0.0/15		BSNL
 60.16.0.0/13		Unicom
 60.176.0.0/12		Chinanet
 60.191.110.0/24		Suige
@@ -1305,6 +1315,7 @@
 67.160.0.0/11		Comcast
 67.205.0.0/18		DreamHost
 67.205.128.0/18		DigitalOcean
+67.207.64.0/19		DigitalOcean
 67.227.128.0/17		LiquidWeb
 67.240.0.0/12		RRNY
 68.154.0.0/15		Microsoft
