@@ -31,7 +31,7 @@ cidrs-oneline.txt:
 # Create plot: countries
 countries: plot-countries
 
-plot-countries: check_gnuplot countries-list.txt
+plot-countries: check_geoip check_gnuplot countries-list.txt
 	@sort plot/countries-list.txt | uniq -c | sort -nr | head -n ${PLOT_COUNTRIES_COUNT} > plot/countries.txt
 	@GNUPLOT_LIB="plot" gnuplot plot/countries.gnu
 	@echo "countries.png"
