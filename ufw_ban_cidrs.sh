@@ -24,10 +24,10 @@ F_SILENT=0		# Do not print 'skipping (already inserted)' messages
 # Print usage and exit
 if [ $F_HELP = 1 ]; then
 	printf "Usage: $0 [options]
--h,--help     Display this help message
 -6,--ipv6     Ban IPv6 CIDRs from CIDRs6.txt (default: IPv4)
 -d,--dry-run  Do not run ufw; only show which CIDRs would be banned
--f,--flags    Print flags and exit
+-f,--flags    Print flags and exit (debugging only)
+-h,--help     Display this help message
 -k,--skip     Skip checking if the rule already exists
 -s,--silent   Do not print 'Skipping (already inserted)' messages
 
@@ -105,11 +105,14 @@ while IFS= read -r line; do
 	# If CIDR is found, skip re-adding the rule
 	if [[ $exit_status -eq 0 && $F_SKIP = 0 ]]; then
 		# Should we echo it?
-		if [ $F_SILENT = 0 ]; then
+		if [ $F_SILENT = 0 || $F_DRY_RUN = 1 ]; then
 			echo "Skipping $cidr (already inserted)"
 		fi
 	else
-		echo "CIDR: $cidr ($comment)";
+		# Should we echo it?
+		if [ $F_SILENT = 0 || $F_DRY_RUN = 1 ]; then
+			echo "CIDR: $cidr ($comment)";
+		fi
 
 		# Dry run: only show what would be added
 		if [ $F_DRY_RUN = 0 ]; then
