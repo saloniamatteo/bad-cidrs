@@ -133,6 +133,6 @@ Additionally, the following options can be used:
 - `-k`, `--skip`: Skip checking if rule already exists
 - `-s`, `--silent`: Do not print 'Skipping (already inserted)' messages
 
-Adding the whole list (which contains more than 900 entries) takes anywhere between 5 to 10 minutes on a modern machine.
-
 Using the `-k` option skips an unnecessary step: the script will not check if a CIDR is already inserted.
+
+With this flag, adding the whole list takes around 3 minutes on an i5-11400.
