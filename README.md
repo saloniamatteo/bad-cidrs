@@ -126,9 +126,13 @@ Adding the listed CIDRs to ufw is really easy, and only takes one command:
 ```
 
 Additionally, the following options can be used:
-- `-h`, `--help`: Display help message
+- `-6`, `--ipv6`: Ban IPv6 CIDRs from `CIDRs6.txt` (default: IPv4)
 - `-d`, `--dry-run`: Do not run ufw; only show which CIDRs would be banned
+- `-f`, `--flags`: Print flags and exit (debugging only)
+- `-h`, `--help`: Display help message
+- `-k`, `--skip`: Skip checking if rule already exists
 - `-s`, `--silent`: Do not print 'Skipping (already inserted)' messages
 
-Adding the whole list (which contains more than 900 entries)
-takes anywhere between 5 to 10 minutes on a modern machine.
+Adding the whole list (which contains more than 900 entries) takes anywhere between 5 to 10 minutes on a modern machine.
+
+Using the `-k` option skips an unnecessary step: the script will not check if a CIDR is already inserted.
