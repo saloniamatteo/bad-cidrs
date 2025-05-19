@@ -105,18 +105,18 @@ while IFS= read -r line; do
 	# If CIDR is found, skip re-adding the rule
 	if [[ $exit_status -eq 0 && $F_SKIP = 0 ]]; then
 		# Should we echo it?
-		if [ $F_SILENT = 0 || $F_DRY_RUN = 1 ]; then
+		if [[ $F_SILENT = 0 || $F_DRY_RUN = 1 ]]; then
 			echo "Skipping $cidr (already inserted)"
 		fi
 	else
 		# Should we echo it?
-		if [ $F_SILENT = 0 || $F_DRY_RUN = 1 ]; then
+		if [[ $F_SILENT = 0 || $F_DRY_RUN = 1 ]]; then
 			echo "CIDR: $cidr ($comment)";
 		fi
 
 		# Dry run: only show what would be added
 		if [ $F_DRY_RUN = 0 ]; then
-			$root ufw prepend deny from "$cidr" comment "$comment"
+			$root ufw prepend deny from "$cidr" comment "$comment" >> "${DIRNAME}/ufw-log.txt"
 		fi
 	fi
 done < "$CIDRS_FILE"
