@@ -1,6 +1,8 @@
 PLOT_OWNERS_COUNT=20
 PLOT_COUNTRIES_COUNT=20
 
+all: plot-owners plot-countries plot-map
+
 # Check if the gnuplot command is available
 check_gnuplot:
 	@if ! command -v gnuplot &> /dev/null; then \
@@ -59,4 +61,4 @@ clean:
 	rm -f plot/owners.txt
 	rm -f plot/points.txt
 
-.PHONY: companies plot-owners countries plot-countries map plot-map clean
+.PHONY: all companies plot-owners countries plot-countries map plot-map clean

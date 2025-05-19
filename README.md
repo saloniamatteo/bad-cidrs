@@ -28,6 +28,8 @@ You can generate the plots above using the following commands:
 - Top 20 countries: `make countries`
 - Top 20 owners/companies: `make owners`
 
+Or just run `make all`. This takes less than 20 seconds on an i7-7820HQ.
+
 Requirements:
 - `awk`
 - `curl`
