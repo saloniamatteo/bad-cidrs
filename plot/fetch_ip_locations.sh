@@ -17,6 +17,9 @@ CIDRSFILE="${DIRNAME}/../CIDRs.txt"
 # Only get IPs (strip owner/company name)
 awk '{print $1}' "${CIDRSFILE}" > "${DIRNAME}/cidrs-oneline.txt"
 
+# Points array
+points=()
+
 # Read file
 while IFS= read -r line; do
     # Get base IP
@@ -30,6 +33,9 @@ while IFS= read -r line; do
     # If points are valid (i.e. they are not empty),
     # then append them to points.txt.
     if ! [[ -z "$lat" && -z "$lon" ]]; then
-        echo "$lon,$lat" >> "${DIRNAME}/points.txt"
+        points+=("$lon,$lat")
     fi
 done < "${DIRNAME}/cidrs-oneline.txt"
+
+# Write points
+printf "%s\n" "${points[@]}" > "${DIRNAME}/points.txt"
