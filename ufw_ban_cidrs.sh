@@ -82,6 +82,14 @@ else
 	root="sudo"
 fi
 
+# Buffer used when silent mode is enabled
+buffer=()
+
+# Clear ufw log file if using silent mode
+if [ $F_SILENT = 1 ]; then
+	echo > "${DIRNAME}/ufw-log.txt"
+fi
+
 # Read file
 while IFS= read -r line; do
 	# Split CIDR & Comment
@@ -104,19 +112,38 @@ while IFS= read -r line; do
 
 	# If CIDR is found, skip re-adding the rule
 	if [[ $exit_status -eq 0 && $F_SKIP = 0 ]]; then
+		msg="Skipping $cidr (already inserted)"
+
 		# Should we echo it?
 		if [[ $F_SILENT = 0 || $F_DRY_RUN = 1 ]]; then
-			echo "Skipping $cidr (already inserted)"
+			echo "${msg}"
+		else
+			buffer+=("${msg}")
 		fi
 	else
-		# Should we echo it?
-		if [[ $F_SILENT = 0 || $F_DRY_RUN = 1 ]]; then
-			echo "CIDR: $cidr ($comment)";
+		msg="CIDR: $cidr ($comment)"
+
+		# If dry run is enabled, only print CIDR & continue
+		if [ $F_DRY_RUN = 1 ]; then
+			echo "${msg}"
+			continue
 		fi
 
-		# Dry run: only show what would be added
-		if [ $F_DRY_RUN = 0 ]; then
-			$root ufw prepend deny from "$cidr" comment "$comment" >> "${DIRNAME}/ufw-log.txt"
+		ufw=$($root ufw prepend deny from "$cidr" comment "$comment")
+
+		# If silent mode is enabled, instead of echoing it,
+		# save the message in our buffer
+		if [ $F_SILENT = 0 ]; then
+			echo "${msg}"
+			echo "${ufw}"
+		else
+			buffer+=("${msg}")
+			buffer+=("${ufw}")
 		fi
 	fi
 done < "$CIDRS_FILE"
+
+# If silent mode is enabled, print the buffer to ufw log
+if [ $F_SILENT = 1 ]; then
+	printf "%s\n" "${buffer[@]}" >> "${DIRNAME}/ufw-log.txt"
+fi
