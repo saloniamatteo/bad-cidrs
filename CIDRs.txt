@@ -48,6 +48,7 @@
 103.146.158.0/24	HK-KXSY
 103.147.184.0/23	VNPT
 103.149.27.0/24		Ucloud-HK
+103.154.159.0/24	Jadoo-Broadband
 103.156.92.0/23		VNPT
 103.160.212.0/23	PT-Dewa-Bisnis
 103.164.8.0/23		KEL-PK
@@ -258,12 +259,13 @@
 122.154.0.0/15		CAT
 122.156.0.0/14		Unicom
 122.160.0.0/14		ABTS-DSL
-122.169.0.0/17		Bharti
-122.170.128.0/17	Bharti
-122.184.0.0/14		Bharti
-122.187.0.0/16		Bharti
+122.169.0.0/17		Airtel
+122.170.128.0/17	Airtel
+122.184.0.0/14		Airtel
+122.187.0.0/16		Airtel
 122.188.0.0/14		Unicom
 122.192.0.0/14		Unicom
+122.224.0.0/12		Chinanet
 122.32.0.0/12		Xpeed
 122.51.0.0/16		Tencent
 123.128.0.0/13		Unicom
@@ -287,7 +289,7 @@
 124.70.0.0/16		Huawei-Cloud
 125.124.0.0/16		Chinanet
 125.128.0.0/11		KoreaTelecom
-125.16.0.0/13		Bharti
+125.16.0.0/13		Airtel
 125.176.0.0/12		Xpeed
 125.19.85.0/24		BTNL-DSL
 125.209.64.0/18		Multinet-PK
@@ -302,7 +304,7 @@
 125.88.0.0/13		Chinanet
 128.1.0.0/16		Zenlayer
 128.14.0.0/16		Zenlayer
-128.185.0.0/17		Bharti
+128.185.0.0/17		Airtel
 128.199.0.0/16		DigitalOcean
 128.203.0.0/16		Microsoft
 128.24.0.0/16		Microsoft
@@ -398,8 +400,7 @@
 144.91.110.0/23		Contabo
 146.19.24.0/24		PL-MEV
 146.190.0.0/16		DigitalOcean
-146.70.194.0/24		M247
-146.70.65.0/24		GlobalAXS
+146.70.0.0/16		M247
 147.135.0.0/16		OVH
 147.139.0.0/16		Alibaba
 147.182.128.0/17	DigitalOcean
@@ -630,7 +631,8 @@
 182.32.0.0/12		Chinanet
 182.52.0.0/15		TOT-AP
 182.61.0.0/16		Baidu
-182.66.0.0/16		Bharti
+182.66.0.0/16		Airtel
+182.79.0.0/17		Airtel
 182.88.0.0/14		Unicom
 182.92.0.0/16		Alisoft
 183.0.0.0/10		Chinanet
@@ -955,6 +957,7 @@
 213.211.176.0/21	EDPNet
 213.215.128.0/17	COLT
 213.232.87.0/24		NordVPN
+213.35.96.0/19		Oracle
 213.55.85.0/24		Ethio-Telecom
 213.79.64.0/18		Akado-Telecom-RU
 213.81.133.0/24		Splitblck133
@@ -1323,6 +1326,7 @@
 60.176.0.0/12		Chinanet
 60.191.110.0/24		Suige
 60.204.0.0/16		HWCSNet
+60.208.0.0/13		Unicom
 60.218.0.0/15		Unicom
 60.96.0.0/11		SoftBankBB
 61.12.64.0/19		Tata-Teleservices
@@ -1548,6 +1552,7 @@
 89.23.123.0/24		XorekCloud
 89.248.160.0/20		IP-Volume
 89.34.219.0/24		PlayGO
+89.42.231.0/24		Amarutu-Technology
 89.46.248.0/22		Hydra-Communications
 90.112.128.0/19		IP2000
 90.188.0.0/17		PJSC-Rostelecom
@@ -1559,6 +1564,7 @@
 91.196.152.0/24		Onyphe
 91.205.172.0/22		Contabo
 91.207.115.0/24		Bezzubov-RU
+91.208.197.0/24		AlexHost
 91.215.85.0/24		Prospero-RU
 91.217.119.0/24		Teknosos
 91.223.75.0/24		PAKT
@@ -1615,6 +1621,7 @@
 95.84.128.0/19		NCN-BBCust
 96.64.0.0/11		Comcast
 97.100.0.0/14		Charter
+98.102.0.0/15		Charter
 98.159.32.0/20		LogicWeb
 98.16.0.0/13		Windstream
 98.160.0.0/11		Cox
