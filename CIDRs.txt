@@ -7,7 +7,7 @@
 1.40.0.0/14			Optus-Internet
 1.6.53.0/24			Sify
 1.80.0.0/13			Chinanet
-1.94.0.0/15			HuaweiCloud
+1.94.0.0/15			Huawei-Cloud
 100.20.0.0/14		AWS
 100.40.128.0/17		Verizon
 101.126.0.0/16		Volcano-Engine
@@ -84,6 +84,7 @@
 103.65.236.0/22		PTBSTI
 103.70.114.0/23		TotHost-VN
 103.76.84.0/22		Slash22
+103.77.106.0/23		PTBSTI
 103.81.194.0/23		PT-Rtiga-Global-Media
 103.81.84.0/22		HostingViet
 103.82.240.0/22		EXBCOID
@@ -139,6 +140,10 @@
 110.8.0.0/13		SK-Broadband
 111.0.0.0/10		CMNet
 111.112.0.0/15		Chinanet
+111.119.192.0/20	Huawei-Cloud
+111.119.208.0/20	Huawei-Cloud
+111.119.224.0/20	Huawei-Cloud
+111.119.240.0/20	Huawei-Cloud
 111.170.0.0/16		Chinanet
 111.172.0.0/14		Chinanet
 111.176.0.0/13		Chinanet
@@ -223,13 +228,14 @@
 118.32.0.0/12		KoreaTelecom
 118.68.0.0/14		FPT-VN
 119.0.0.0/15		Chinanet
+119.13.64.0/18		Huawei-Cloud
 119.162.0.0/15		Unicom
 119.164.0.0/14		Unicom
 119.176.0.0/12		Unicom
 119.23.0.0/16		Alisoft
 119.48.0.0/13		Unicom
 119.64.0.0/13		Xpeed
-119.8.0.0/16		HuaweiCloud
+119.8.0.0/16		Huawei-Cloud
 119.82.248.0/21		Ezecom
 12.0.0.0/8			AT&T
 120.0.0.0/12		Unicom
@@ -284,6 +290,7 @@
 124.116.0.0/16		Chinanet
 124.220.0.0/14		Tencent
 124.236.0.0/14		Chinanet
+124.243.128.0/18	Huawei-Cloud
 124.48.0.0/12		Xpeed
 124.66.0.0/17		Unicom
 124.70.0.0/16		Huawei-Cloud
@@ -444,7 +451,7 @@
 154.203.197.0/24	Kprohost
 154.204.177.0/24	Fastmos
 154.212.0.0/16		Cox
-154.213.184.0/21	PFcloud
+154.213.184.0/21	Pfcloud
 154.213.193.0/24	ThreeXTech
 154.213.196.0/24	ThreeXTech
 154.216.18.0/24		Silent-Connections
@@ -499,6 +506,7 @@
 164.152.16.0/20		Oracle
 164.152.32.0/19		Oracle
 164.152.8.0/21		Oracle
+164.52.0.0/17		CDS-Global-Cloud
 164.52.0.0/24		UCUL
 164.90.128.0/17		DigitalOcean
 164.92.128.0/17		DigitalOcean
@@ -510,6 +518,10 @@
 165.232.128.0/18	DigitalOcean
 165.232.32.0/19		DigitalOcean
 165.232.64.0/18		DigitalOcean
+166.108.192.0/20	Huawei-Cloud
+166.108.208.0/20	Huawei-Cloud
+166.108.224.0/20	Huawei-Cloud
+166.108.240.0/20	Huawei-Cloud
 167.172.0.0/16		DigitalOcean
 167.71.0.0/16		DigitalOcean
 167.86.66.0/23		Contabo
@@ -517,7 +529,9 @@
 167.94.145.0/24		Censys
 167.94.146.0/24		Censys
 167.99.0.0/16		DigitalOcean
+168.119.0.0/16		Hetzner
 168.187.0.0/16		KEMS-KW
+168.194.64.0/22		ProvedorLive-BR
 168.220.224.0/19	NTT-Communications
 168.253.90.0/24		CMV-TER1
 168.75.0.0/16		Oracle
@@ -601,6 +615,7 @@
 178.79.128.0/18		Akamai
 179.42.124.0/22		CHTCH
 179.43.128.0/18		PrivateLayer
+18.142.0.0/15		AWS
 18.188.0.0/16		AWS
 18.189.0.0/16		AWS
 18.191.0.0/16		AWS
@@ -662,6 +677,7 @@
 185.165.188.0/22	Shodan
 185.17.0.0/24		AezaNet
 185.175.24.0/23		FortyTwoSec
+185.177.72.0/24		Yufly-Telecom
 185.180.140.0/24	ICG1
 185.183.246.0/24	dpkgSoft
 185.184.200.0/23	Ibraheem-Massalha
@@ -688,7 +704,8 @@
 185.218.84.0/24		Netiface
 185.218.86.0/24		Netiface
 185.222.4.0/22		Intertell-PL
-185.224.0.0/24		PFcloud
+185.224.0.0/24		Pfcloud
+185.224.128.0/24	Alsycon
 185.224.129.0/24	SpectraIP-customers
 185.224.3.0/24		Pipehost
 185.226.197.0/24	ICG4
@@ -733,6 +750,10 @@
 188.171.0.0/16		Masorange-ES
 188.192.0.0/15		Kabel-DE
 188.212.100.0/22	Asynet
+188.239.0.0/20		Huawei-Cloud
+188.239.16.0/20		Huawei-Cloud
+188.239.32.0/20		Huawei-Cloud
+188.239.48.0/20		Huawei-Cloud
 188.24.0.0/14		Digi-RO
 188.245.0.0/16		Hetzner
 188.26.192.0/21		ES-Residential
@@ -878,6 +899,7 @@
 202.83.160.0/20		NTC-PK
 202.83.32.0/19		Asianet-Broadband
 202.90.128.0/19		DOST
+202.93.128.0/20		PT-Indonusa
 202.95.0.0/19		RCPL
 203.12.200.0/21		CTHKI
 203.147.96.0/21		Swoop-AU
@@ -898,7 +920,7 @@
 204.137.14.0/24		Atomic-Networks
 204.188.192.0/18	Sharktech
 204.216.0.0/16		Navisite-Opco
-204.76.203.0/24		PFcloud
+204.76.203.0/24		Pfcloud
 205.168.0.0/14		CenturyLink
 205.210.31.0/24		PAN22
 206.123.150.0/24	Voxility
@@ -986,7 +1008,7 @@
 23.129.64.0/24 		Emerald-Onion
 23.137.100.0/24		PRV8
 23.137.105.0/24		Advin-Servers
-23.176.184.0/24		PFcloud
+23.176.184.0/24		Pfcloud
 23.228.90.0/24		LayerHost
 23.230.0.0/16		NodeStop
 23.235.160.0/19		XiaoXiao
@@ -1148,7 +1170,8 @@
 45.13.214.0/24		SpinServers
 45.131.155.0/24		Detai-Prosperous
 45.134.225.0/24		ColocationX
-45.135.193.0/24		PFcloud
+45.135.193.0/24		Pfcloud
+45.135.194.0/24		Pfcloud
 45.135.232.0/24		Proton66
 45.135.92.0/22		IMAQLIQ
 45.139.104.0/24		Net493
@@ -1203,6 +1226,7 @@
 45.94.31.0/24		Tencent
 46.101.0.0/16		DigitalOcean
 46.105.0.0/16		OVH
+46.137.224.0/19		AWS
 46.17.96.0/21		Hostkey
 46.176.0.0			HOL-Broadband
 46.19.138.0/24		Client1060
@@ -1331,6 +1355,7 @@
 60.96.0.0/11		SoftBankBB
 61.12.64.0/19		Tata-Teleservices
 61.153.0.0/16		Chinanet
+61.163.0.0/16		Unicom
 61.168.0.0/16		Unicom
 61.169.0.0/16		Chinanet
 61.170.0.0/15		Chinanet
@@ -1579,6 +1604,7 @@
 92.205.96.0/20		EMEA-DCN
 92.223.0.0/17		GCore-Labs
 92.249.0.0/18		Kleynkom
+92.253.128.0/17		Alfa-Telecom-CZ
 92.255.57.0/24		Changway
 92.255.85.0/24		Changway
 92.32.0.0/14		Telenor
